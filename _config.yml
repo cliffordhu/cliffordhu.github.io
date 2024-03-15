@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Kuifeng Clifford Hu / All Models are wrong, but some are useful."
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -21,18 +21,18 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  avatar           : "CliffordHu.png"
+  name             : "Life is Good."
+  pronouns         : # example: "He/Him"  
+  bio              : "Time Series Measurement, Analysis and Perdiction"
+  location         : "1900 Garden of the Gods Rd. "
+  employer         : "Keysight Technologies"
+  uri              : "http://www.keysight.com"
+  email            : "kuifeng.hu@keysight.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=SKe_mE4AAAAJ&hl=en&oi=ao"
   impactstory      : # URL
   orcid            : "http://orcid.org/yourorcidurl"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -42,7 +42,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/cliffordhu/cliffordhu"
+  github           : "https://github.com/cliffordhu/UCCSECE4105"
+  github           : "https://github.com/cliffordhu/ComputerVisonEMScanningSystem"
+  github           : "https://github.com/cliffordhu/pca_for_stock_indicators"
+
+  
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
