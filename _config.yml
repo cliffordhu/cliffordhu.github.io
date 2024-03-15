@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "./images/Bio_photo.png.png"
+  avatar           : "CliffordHu.png"
   name             : "Life is Good."
   pronouns         : # example: "He/Him"  
   bio              : "Time Series Measurement, Analysis and Perdiction"
