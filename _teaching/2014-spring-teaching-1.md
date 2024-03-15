@@ -4,7 +4,7 @@ collection: Lecture
 type: "Graduate/Senior Course"
 permalink: "https://github.com/cliffordhu/UCCSECE4105"
 venue: "University of Colorado, Colorado Springs, Electrical Engineering Department"
-date: 2022 Fall, 2023 Fall, 2024 Fall
+date: "2022 Fall, 2023 Fall, 2024 Fall"
 location: "Colorado Springs, Colorado, USA"
 ---
 
