@@ -40,9 +40,9 @@ There are three types of data in the traditional statistics study. Sequential, c
 When dealing with time series data like stock prices, which often exhibit trends and seasonality, converting them to stationary data can be crucial for training a Random Forest (RF) model to extract underlying patterns. If the data isn't stationary, those patterns and trends are buried in the random walk noise. The signal to noise ratio is too small to make the model training failed. In statistics the definition of stationary means the mean (average), variance (spread), and autocorrelation (correlation between observations at different time lags) should remain consistent throughout the entire data set. There are several ways to remove trend, bias, seasonality,
 
 1. Differentiate the price to get linear gain, take log operation to get log scale gain so that the distribution is normal.
-
+   ```python
 **_gain=np.log(1+self.df1\['X'\].diff()/self.df1\['X'\])\*100_**
-
+```
 1. Add Lag features to identify those seasonality.
 
 **_case "weekdays":_**
