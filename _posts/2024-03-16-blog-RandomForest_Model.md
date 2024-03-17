@@ -22,7 +22,7 @@ Time series prediction models come in many flavors, each with strengths and weak
   - **Data Efficiency.** Unlike LSTM model, the required data set can be as small as 1000+points. The model can be small enough to run live trading analysis.
   - **Result Presentation:** It can provide the confidence level (by counting the votes) which other model cannot give.
   - **Result format:** It can give two types of results. For regression format, the individual trees predict a continuous value, and the final output is the average of those predictions. For classification format, each tree predicts a class, and the final output is the most voted-for class by the trees. In stock analysis, the class can be defined as the different range of gains.
-
+Inspired by [Dr. Earnest Chan's](https://epchan.blogspot.com/) talk on youtube, I start the journey of using Random Forest Model to simulate stock market gain action.  
 # Training Data Preparation
 
 ## Data Type in statistics
