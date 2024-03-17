@@ -39,11 +39,11 @@ There are three types of data in the traditional statistics study. Sequential, c
 
 When dealing with time series data like stock prices, which often exhibit trends and seasonality, converting them to stationary data can be crucial for training a Random Forest (RF) model to extract underlying patterns. If the data isn't stationary, those patterns and trends are buried in the random walk noise. The signal to noise ratio is too small to make the model training failed. In statistics the definition of stationary means the mean (average), variance (spread), and autocorrelation (correlation between observations at different time lags) should remain consistent throughout the entire data set. There are several ways to remove trend, bias, seasonality,
 
-_ **1. Differentiate the price to get linear gain, take log operation to get log scale gain so that the distribution is normal.**
+ **1. Differentiate the price to get linear gain, take log operation to get log scale gain so that the distribution is normal.**
 ```python
 gain=np.log(1+self.df1\['X'\].diff()/self.df1\['X'\])\*100
 ```
-_ **2. Add Lag features to identify those seasonality.**
+ **2. Add Lag features to identify those seasonality.**
 ```python
 case "weekdays":
                tmp=pd.DataFrame(index=self.df1.index)
@@ -55,15 +55,15 @@ case "weekdays":
                 self.df1=pd.concat([self.df1,tmp],axis=1)
 
 ```
-- **3. Volatility features: Include measures like standard deviation of past returns to capture risk.**
-- **4. Technical indicators: Calculate technical indicators like moving averages, Relative Strength Index (RSI), or Bollinger Bands to incorporate technical analysis insights.**
+ **3. Volatility features: Include measures like standard deviation of past returns to capture risk.**
+ **4. Technical indicators: Calculate technical indicators like moving averages, Relative Strength Index (RSI), or Bollinger Bands to incorporate technical analysis insights.**
 ```python
 # add more indicators
          #momentum indicator
          for i in np.arange(5,35,5):
              self.add_x("ema",i)
              self.add_x("rsi",i)
-             self.add_x("cci",i)
+             self.add_x("cci",i) 
              self.add_x("roc",i)
              self.add_x("rocp",i)
              self.add_x("atr",i)
@@ -79,17 +79,17 @@ case "weekdays":
 ```
 _ **5. Detrend by normalizing the data**
 ```python
-**_self.df1 = self.df1.rename(columns={'Adj Close': 'X'})_**
+self.df1 = self.df1.rename(columns={'Adj Close': 'X'})
 
-**_tmp=self.df1.X.mean()_**
+tmp=self.df1.X.mean()
 
-**_self.df1\['scale_factor'\]=tmp/self.df1.X_**
+self.df1\['scale_factor'\]=tmp/self.df1.X
 ```
 _ **Other Things to consider:**
 
 - ***Feature selection:*** Choose historical observations that are relevant and informative for your target variable. Too many features can lead to underfitting or overfitting. Current features include (beyond the above indicators):
 ```pyhton
-ndate=5
+         ndate=5
          # #Total market
          self.add_x("QQQ",ndate)
          self.add_x("SPY",ndate)
@@ -150,16 +150,14 @@ for i in np.arange(len(self.df1['X'])-ndate):
 ```
 To prepare the training goal Y for the classifier model:  We assign [-4:4] to represent the gain from -3 standard deviation to +3 standard deviation. 
 ```python
-**rng=np.mean(abs(dataY))
+             rng=np.mean(abs(dataY))
              for i in dataY.to_numpy():
                 if np.isnan(i):
                     metaclass.append(np.nan)
                 if  i>=3*rng: 
-                   # marker.append('up'+str(k)+' '+i.strftime("%Y-%m-%d"))
                     metaclass.append(4)
                 if  i<3*rng and i>=2*rng: 
                     metaclass.append(3)
-                    
                 if  i<2*rng and i>=rng: 
                     metaclass.append(2)
                 if  i<rng and i>=0: 
