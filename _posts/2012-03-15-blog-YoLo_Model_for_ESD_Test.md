@@ -52,7 +52,7 @@ from ultralytics import YOLO, checks, hub
 
 checks()
 
-hub.login('628124d02e6121bc09fdd16e0ada274d94458d21b7')
+hub.login('xxxxxxx')
 
 model = YOLO('<https://hub.ultralytics.com/models/G7FMx7AsqirOlwdqW00p>')
 
@@ -64,7 +64,7 @@ results = model.train()
 
 from roboflow import Roboflow
 
-rf = Roboflow(api_key="QXwc4m5evRTT4dKlnCTd")
+rf = Roboflow(api_key="Qxxxxxx")
 
 project = rf.workspace("probe-4b558").project("esdtips")
 
