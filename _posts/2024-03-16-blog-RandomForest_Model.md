@@ -1,7 +1,7 @@
 ---
 title: 'Time Series Prediction using Random Forest model'
 date: 2024-03-16
-permalink: /posts/2013/08/blog-post-2/
+permalink: /posts/2024/03/RandomForest_Model/
 tags:
   - Random Forest Stock Prediction
   - Machine Learning
