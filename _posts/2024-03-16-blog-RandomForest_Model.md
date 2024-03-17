@@ -56,6 +56,7 @@ case "weekdays":
 
 ```
  **3. Volatility features: Include measures like standard deviation of past returns to capture risk.**
+ 
  **4. Technical indicators: Calculate technical indicators like moving averages, Relative Strength Index (RSI), or Bollinger Bands to incorporate technical analysis insights.**
 ```python
 # add more indicators
@@ -77,7 +78,7 @@ case "weekdays":
          self.add_x("vol",5)
          self.add_x("HLrange",5)
 ```
-_ **5. Detrend by normalizing the data**
+ **5. Detrend by normalizing the data**
 ```python
 self.df1 = self.df1.rename(columns={'Adj Close': 'X'})
 
@@ -85,7 +86,7 @@ tmp=self.df1.X.mean()
 
 self.df1\['scale_factor'\]=tmp/self.df1.X
 ```
-_ **Other Things to consider:**
+ **Other Things to consider:**
 
 - ***Feature selection:*** Choose historical observations that are relevant and informative for your target variable. Too many features can lead to underfitting or overfitting. Current features include (beyond the above indicators):
 ```pyhton
