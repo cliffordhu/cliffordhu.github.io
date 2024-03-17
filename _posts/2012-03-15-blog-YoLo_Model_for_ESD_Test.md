@@ -1,7 +1,7 @@
 ---
 title: 'Blog Post number 1'
-date: 2012-08-14
-permalink: /posts/2012/08/blog-post-1/
+date: 2024-03-15
+permalink: /posts/2024/03/YoLo_Model_for_ESD_Test/
 tags:
   - Yolo v8
   - vision tracking
