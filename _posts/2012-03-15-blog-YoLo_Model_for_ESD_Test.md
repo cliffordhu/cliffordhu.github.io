@@ -1,5 +1,5 @@
 ---
-title: 'Blog Post number 1'
+title: 'Automated ESD test using YoLo and Vosk Model'
 date: 2024-03-15
 permalink: /posts/2024/03/YoLo_Model_for_ESD_Test/
 tags:
