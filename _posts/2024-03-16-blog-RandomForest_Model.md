@@ -40,11 +40,11 @@ There are three types of data in the traditional statistics study. Sequential, c
 When dealing with time series data like stock prices, which often exhibit trends and seasonality, converting them to stationary data can be crucial for training a Random Forest (RF) model to extract underlying patterns. If the data isn't stationary, those patterns and trends are buried in the random walk noise. The signal to noise ratio is too small to make the model training failed. In statistics the definition of stationary means the mean (average), variance (spread), and autocorrelation (correlation between observations at different time lags) should remain consistent throughout the entire data set. There are several ways to remove trend, bias, seasonality,
 
 1. Differentiate the price to get linear gain, take log operation to get log scale gain so that the distribution is normal.
-   ```python
+```python
 **_gain=np.log(1+self.df1\['X'\].diff()/self.df1\['X'\])\*100_**
 ```
-1. Add Lag features to identify those seasonality.
-
+2. Add Lag features to identify those seasonality.
+```python
 **_case "weekdays":_**
 
 **_tmp=pd.DataFrame(index=self.df1.index)_**
@@ -60,10 +60,10 @@ When dealing with time series data like stock prices, which often exhibit trends
 **_tmp\['weeks'\]=pd.to_datetime(tmp.index).isocalendar()\['week'\]_**
 
 **_self.df1=pd.concat(\[self.df1,tmp\],axis=1)_**
-
-1. Volatility features: Include measures like standard deviation of past returns to capture risk.
-2. Technical indicators: Calculate technical indicators like moving averages, Relative Strength Index (RSI), or Bollinger Bands to incorporate technical analysis insights.
-
+```
+3. Volatility features: Include measures like standard deviation of past returns to capture risk.
+4. Technical indicators: Calculate technical indicators like moving averages, Relative Strength Index (RSI), or Bollinger Bands to incorporate technical analysis insights.
+```python
 **_\# add more indicators_**
 
 **_#momentum indicator_**
@@ -99,8 +99,8 @@ When dealing with time series data like stock prices, which often exhibit trends
 **_self.add_x("vol",5)_**
 
 **_self.add_x("HLrange",5)_**
-
-1. Detrend by normalizing the data
+```
+5. Detrend by normalizing the data
 
 **_self.df1 = self.df1.rename(columns={'Adj Close': 'X'})_**
 
