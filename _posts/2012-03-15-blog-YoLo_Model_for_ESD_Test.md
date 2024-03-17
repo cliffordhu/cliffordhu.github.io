@@ -38,11 +38,3 @@ Training Steps:
 •	Download the prepared dataset for training. 
 •	Deploy the trained weight to yolo model and run on the local machine. 
 
-Headings are cool
-======
-
-You can have many headings
-======
-
-Aren't headings cool?
-------
