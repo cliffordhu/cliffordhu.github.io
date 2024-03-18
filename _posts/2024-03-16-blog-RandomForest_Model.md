@@ -22,7 +22,9 @@ Time series prediction models come in many flavors, each with strengths and weak
   - **Data Efficiency.** Unlike LSTM model, the required data set can be as small as 1000+points. The model can be small enough to run live trading analysis.
   - **Result Presentation:** It can provide the confidence level (by counting the votes) which other model cannot give.
   - **Result format:** It can give two types of results. For regression format, the individual trees predict a continuous value, and the final output is the average of those predictions. For classification format, each tree predicts a class, and the final output is the most voted-for class by the trees. In stock analysis, the class can be defined as the different range of gains.
+  
 Inspired by [Dr. Earnest Chan's](https://epchan.blogspot.com/) talk on youtube, I start the journey of using Random Forest Model to simulate stock market gain action.  
+
 # Training Data Preparation
 
 ## Data Type in statistics
@@ -35,7 +37,7 @@ There are three types of data in the traditional statistics study. Sequential, c
 
 ## Conversion from sequential data to Panel data
 
-**DataX Preparation:**  
+### **DataX Preparation:**  
 
 When dealing with time series data like stock prices, which often exhibit trends and seasonality, converting them to stationary data can be crucial for training a Random Forest (RF) model to extract underlying patterns. If the data isn't stationary, those patterns and trends are buried in the random walk noise. The signal to noise ratio is too small to make the model training failed. In statistics the definition of stationary means the mean (average), variance (spread), and autocorrelation (correlation between observations at different time lags) should remain consistent throughout the entire data set. There are several ways to remove trend, bias, seasonality,
 
@@ -136,7 +138,7 @@ self.df1\['scale_factor'\]=tmp/self.df1.X
       - Use 15m or 1m data to increase the observation.
       - Use All in one Model, namely train all ticker using one model instead of one ticker for one model.
 
-**DataY Preparation:**  
+### **DataY Preparation:**   
 
 1. For the target Y, instead of predicting the gain of the next day, I try to predict the next nday’s regression slop k, bias b and variation v instead.
 2. There are two RF models. To prepare the training goal Y for regression model:
@@ -181,3 +183,4 @@ self.classifier=RandomForestClassifier(n_estimators=self.N, random_state=0,max_f
 
 self.classifier.fit(dataX.to_numpy(),dataY\[f'Y_metaclass_{SelectedSetN}'\].to_numpy())
 ```
+# **Model Training and HyperParameter Tuning:**   
