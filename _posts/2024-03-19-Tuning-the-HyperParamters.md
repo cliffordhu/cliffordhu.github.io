@@ -8,4 +8,11 @@ tags:
   - hyperparameter turning 
 ---
 ![Maximum](./Image-30-19-24/MaximumDepth.png)
-## read this reference [Tuning the parameters of your Random Forest model](https://www.analyticsvidhya.com/blog/2015/06/tuning-random-forest-model/)
+![Maximum](./Image-30-19-24/Minimum SampleLeaf.png)
+![Maximum](./Image-30-19-24/Minimum SampleSplit.png)
+![Maximum](./Image-30-19-24/max_leaf_nodes.png)
+![Maximum](./Image-30-19-24/maximum samples.png)
+![Maximum](./Image-30-19-24/TickerOwnedbyETFRanking.png)
+
+
+### read this reference [Tuning the parameters of your Random Forest model](https://www.analyticsvidhya.com/blog/2020/03/beginners-guide-random-forest-hyperparameter-tuning/)
