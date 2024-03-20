@@ -60,7 +60,7 @@ However, the red node has only 3 samples and hence it will not be considered as 
 So, we have controlled the growth of the tree by setting a minimum sample criterion for terminal nodes. As you would have guessed, similar to the two hyperparameters mentioned above, this hyperparameter also helps prevent overfitting as the parameter value increases.
 If we plot the performance/parameter value plot as before:
 ![Maximum](https://raw.githubusercontent.com/cliffordhu/cliffordhu.github.io/master/_posts/Image-30-19-24/MinimumSampleLeaf.png)
-We can clearly see that the Random Forest model is overfitting when the parameter value is very low (when parameter value < 100), but the model performance quickly rises up and rectifies the issue of overfitting.
+We can clearly see that the Random Forest model is better when the parameter value is very low (when parameter value < 5), but the model performance may have overfitting problem so I selected 5 or 10 here.
 
 So far, we have looked at the hyperparameters that are also covered in Decision Trees. Let’s now look at the hyperparameters that are exclusive to Random Forest. Since Random Forest is a collection of decision trees, let’s begin with the number of estimators.
 
