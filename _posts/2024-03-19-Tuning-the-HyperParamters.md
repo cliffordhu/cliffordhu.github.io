@@ -7,6 +7,7 @@ tags:
   - rf clf result
   - hyperparameter turning 
 ---
+
 # Random Forest Hyperparameters we’ll be Looking at (and selected best value):
 - max_depth  30
 - min_sample_split 5
@@ -15,6 +16,8 @@ tags:
 - n_estimators 300
 - max_sample (bootstrap sample) 0.8
 - max_features 120
+
+  
 ## Random Forest Hyperparameter #1: max_depth
 Let’s discuss the critical max_depth hyperparameter first. The max_depth of a tree in Random Forest is defined as the longest path between the root node and the leaf node:
 
