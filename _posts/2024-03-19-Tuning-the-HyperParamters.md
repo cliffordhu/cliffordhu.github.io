@@ -8,10 +8,10 @@ tags:
   - hyperparameter turning 
 ---
 ![Maximum](./Image-30-19-24/MaximumDepth.png)
-![Maximum](./Image-30-19-24/Minimum SampleLeaf.png)
-![Maximum](./Image-30-19-24/Minimum SampleSplit.png)
+![Maximum](./Image-30-19-24/MinimumSampleLeaf.png)
+![Maximum](./Image-30-19-24/MinimumSampleSplit.png)
 ![Maximum](./Image-30-19-24/max_leaf_nodes.png)
-![Maximum](./Image-30-19-24/maximum samples.png)
+![Maximum](./Image-30-19-24/maximumsamples.png)
 ![Maximum](./Image-30-19-24/TickerOwnedbyETFRanking.png)
 
 
