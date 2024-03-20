@@ -11,7 +11,10 @@ tags:
 
 
 
-** Result Table **|         |   CLF_perdiction |   REG_perdiction |   Total Score |   Rank |   Rank Percent |
+** Result Table **
+
+
+|         |   CLF_perdiction |   REG_perdiction |   Total Score |   Rank |   Rank Percent |
 |:--------|-----------------:|-----------------:|--------------:|-------:|---------------:|
 | SMCI    |       4.39194    |      2.17798     |     6.56992   |      1 |           0.99 |
 | BKNG    |       2.10195    |      3.54561     |     5.64755   |      2 |           0.99 |
