@@ -1,4 +1,5 @@
 ---
+layout: "post"
 title: '2024-03-19 Tuning the HyperParamters'
 date: 2024-03-19
 permalink: /posts/2024/03/Tuning-the-HyperParamters/
