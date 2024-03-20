@@ -37,7 +37,7 @@ Having a default value as 2 poses the issue that a tree often keeps on splitting
 By increasing the value of the min_sample_split, we can reduce the number of splits that happen in the decision tree and therefore prevent the model from overfitting. In the above example, if we increase the min_sample_split value from 2 to 6, the tree on the left would then look like the tree on the right.
 Now, let’s look at the effect of min_samples_split on the performance of the model. The graph below is plotted considering that all the other parameters remain the same and only the value of min_samples_split is changed:
 On increasing the value of the min_sample_split hyperparameter, we can clearly see that for the small value of parameters, there is a significant difference between the training score and the test scores. But as the value of the parameter increases, the difference between the train score and the test score decreases.
-But there’s one thing you should keep in mind. When the parameter value increases too much, there is an overall dip in both the training score and test scores. This is due to the fact that the minimum requirement of splitting a node is so high that there are no significant splits observed. As a result, the random forest starts to underfit.
+But there’s one thing you should keep in mind. When the parameter value increases too much, due to the fact that the minimum requirement of splitting a node is so high that there are no significant splits observed. As a result, the random forest starts to underfit.
 You can read more about the concept of overfitting and underfitting here:
 [Underfitting vs. Overfitting in Machine Learning](https://www.analyticsvidhya.com/blog/2020/02/underfitting-overfitting-best-fitting-machine-learning/?utm_source=blog&utm_medium=beginners-guide-random-forest-hyperparameter-tuning)
 ![Maximum](https://raw.githubusercontent.com/cliffordhu/cliffordhu.github.io/master/_posts/Image-30-19-24/MinimumSampleSplit.png)
@@ -48,7 +48,7 @@ Let’s say we set the maximum terminal nodes as 2 in this case. As there is onl
 ![leafnote](https://raw.githubusercontent.com/cliffordhu/cliffordhu.github.io/master/_posts/Image-30-19-24/leafnode.webp)
 Now, after the first split, you can see that there are 2 nodes here and we have set the maximum terminal nodes as 2. Hence, the tree will terminate here and will not grow further. This is how setting the maximum terminal nodes or max_leaf_nodes can help us in preventing overfitting.
 Note that if the value of the max_leaf_nodes is very small, the random forest is likely to underfit. Let’s see how this parameter affects the random forest model’s performance:
-We can see that when the parameter value is very small, the tree is underfitting and as the parameter value increases, the performance of the tree over both test and train increases. According to this plot, the tree starts to overfit as the parameter value goes beyond 25.
+We can see that when the parameter value is very small, the tree is underfitting and as the parameter value increases, the performance of the tree over both test and train increases. According to this plot, the tree gain no improvment after 100.
 ![Maximum](https://raw.githubusercontent.com/cliffordhu/cliffordhu.github.io/master/_posts/Image-30-19-24/max_leaf_nodes.png)
 
 ## Random Forest Hyperparameter #4: min_samples_leaf
