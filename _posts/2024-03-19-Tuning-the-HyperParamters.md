@@ -73,16 +73,16 @@ This means that choosing a large number of estimators in a random forest model i
 
 ## Random Forest Hyperparameter #6: max_samples
 The max_samples hyperparameter determines what fraction of the original dataset is given to any individual tree. You might be thinking that more data is always better. Let’s try to see if that makes sense.
-We can see that the performance of the model rises sharply and then saturates fairly quickly. Can you figure out what the key takeaway from this visualization is?
-It is not necessary to give each decision tree of the Random Forest the full data. If you would notice, the model performance reaches its max when the data provided is less than 0.2 fraction of the original dataset. That’s quite astonishing!
-Although this fraction will differ from dataset to dataset, we can allocate a lesser fraction of bootstrapped data to each decision tree. As a result, the training time of the Random Forest model is reduced drastically.
+We can see that the performance of the model rises gradualy and then saturates fairly. because we don't have enough points, The model needs almost all data to train. It is not necessary to give each decision tree of the Random Forest the full data. 
+I chose 0.8 fraction of the original dataset. It could be higher but it will give less varation of the trees. It also relates to the #5 why only 300 tree would be enough because the data for each tree training is about the same!
+Also a less tree sample size means the training time of the Random Forest model is reduced drastically.
 ![Maximum](https://raw.githubusercontent.com/cliffordhu/cliffordhu.github.io/master/_posts/Image-30-19-24/maximumsamples.png)
 
 ## Random Forest Hyperparameter #7: max_features
 Finally, we will observe the effect of the max_features hyperparameter. This resembles the number of maximum features provided to each tree in a random forest.
 We know that random forest chooses some random samples from the features to find the best split. Let’s see how varying this parameter can affect our random forest model’s performance.
 ![Maximum](https://raw.githubusercontent.com/cliffordhu/cliffordhu.github.io/master/_posts/Image-30-19-24/MaximumFeature.png)
-We can see that the performance of the model initially increases as the number of max_feature increases. But, after a certain point, the train_score keeps on increasing. But the test_score saturates and even may be decreasing towards the end, which clearly means that the model starts to overfit.
+We can see that the performance of the model increases as the number of max_feature increases. But, after a certain point, the train_score keeps on increasing. But the test_score saturates and even may be decreasing towards the end, which clearly means that the model starts to overfit.
 
 
 ### read this reference [Tuning the parameters of your Random Forest model](https://www.analyticsvidhya.com/blog/2020/03/beginners-guide-random-forest-hyperparameter-tuning/)
