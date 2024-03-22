@@ -11,7 +11,9 @@ tags:
 
 
 
-** Result Table **|         |   CLF_perdiction |   REG_perdiction |   Total Score |   Rank |   Rank Percent |
+** Result Table **
+
+|         |   CLF_perdiction |   REG_perdiction |   Total Score |   Rank |   Rank Percent |
 |:--------|-----------------:|-----------------:|--------------:|-------:|---------------:|
 | SMCI    |       4.40293    |      2.14629     |    6.54922    |      1 |           0.99 |
 | ULVR.L  |       0.360131   |      4.68954     |    5.04967    |      2 |           0.99 |
