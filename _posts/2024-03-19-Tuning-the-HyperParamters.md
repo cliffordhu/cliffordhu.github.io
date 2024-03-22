@@ -19,7 +19,7 @@ tags:
   - max_features 120
 
   
-## Random Forest Hyperparameter #1: max_depth
+# **Random Forest Hyperparameter #1: max_depth**
 Let’s discuss the critical max_depth hyperparameter first. The max_depth of a tree in Random Forest is defined as the longest path between the root node and the leaf node:
 
 ![depth](https://raw.githubusercontent.com/cliffordhu/cliffordhu.github.io/master/_posts/depth.png)
