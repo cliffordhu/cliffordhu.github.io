@@ -29,7 +29,7 @@ in this graph, we can clearly see that as the max depth of the decision tree inc
 Can you think of a reason for this? The tree starts to overfit the training set and therefore is not able to improve even more depth is given. 
 Among the parameters of a decision tree, max_depth works on the macro level by greatly reducing the growth of the Decision Tree.
 
-## Random Forest Hyperparameter #2: min_sample_split
+# Random Forest Hyperparameter #2: min_sample_split
 min_sample_split – a parameter that tells the decision tree in a random forest the minimum required number of observations in any given node in order to split it.
 The default value of the minimum_sample_split is assigned to 2. This means that if any terminal node has more than two observations and is not a pure node, we can split it further into subnodes.
 Having a default value as 2 poses the issue that a tree often keeps on splitting until the nodes are completely pure. As a result, the tree grows in size and therefore overfits the data.
