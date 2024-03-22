@@ -9,14 +9,14 @@ tags:
   - hyperparameter turning 
 ---
 
-# Random Forest Hyperparameters we’ll be Looking at (and selected best value):
-- max_depth  30
-- min_sample_split 5
-- max_leaf_nodes 100
-- min_samples_leaf 5
-- n_estimators 300
-- max_sample (bootstrap sample) 0.8
-- max_features 120
+# **Random Forest Hyperparameters we’ll be Looking at (and selected best value):**
+  - max_depth  30
+  - min_sample_split 5
+  - max_leaf_nodes 100
+  - min_samples_leaf 5
+  - n_estimators 300
+  - max_sample (bootstrap sample) 0.8
+  - max_features 120
 
   
 ## Random Forest Hyperparameter #1: max_depth
