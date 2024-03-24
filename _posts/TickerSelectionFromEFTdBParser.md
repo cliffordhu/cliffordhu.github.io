@@ -25,12 +25,12 @@ result=[]
 import time
 ```
 ## Parse the top 10 holders of each ETF and histogram the ticker held by ETFS. The top 150 tickers are selected on the watch list. 
-There are a lot of N/As because they are bond ticker, not avaible on the stock market. Also some tickers are from Europe, not tradble. 
-Finally, there are if the API is called too fast for too long. the  systme will give timeout. like this 
+There are a lot of N/As because they are bond tickers, not available on the stock market. Also, some tickers are from Europe, not tradable. 
+Finally, if the API is called too fast for too long. the  system will give a timeout. like this 
 
 - Exception raised. Retrying for 2 time. Error code is HTTPSConnectionPool(host='etfdb.com', port=443): Max retries exceeded with url: /etf/SRLN (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002AB9A5DBFD0>, 'Connection to etfdb.com timed out. (connect timeout=None)'))
 
-- Reduced retries. Sleeping for 15 mins. Current symbol is SRLN
+- Reduced retries. Sleeping for 15 mins. The current symbol is SRLN
 In this case we have to wait for 15 mins to rest the link. 
 
 All the tickers are saved to Stocklist and to csv file. 
@@ -62,8 +62,8 @@ StockList.to_csv('StockList.csv')
 
 ```
 
-## post data analysis- Historgram. 
-After all tickers are saved. it is plotted as histogram plot. and the ticker is ranked by the appearnace count and saved to TickerList.csv
+## post data analysis- Histogram. 
+After all tickers are saved. it is plotted as a histogram plot. and the ticker is ranked by the appearance count and saved to TickerList.csv
 
 
 ```Python
