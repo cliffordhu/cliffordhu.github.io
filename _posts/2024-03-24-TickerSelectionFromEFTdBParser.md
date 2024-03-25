@@ -35,7 +35,7 @@ In this case we have to wait for 15 mins to rest the link.
 
 All the tickers are saved to Stocklist and to csv file. 
 
-```Python
+```python
 i=0
 etfs1=etfs[i:]
 while (1):
@@ -66,7 +66,7 @@ StockList.to_csv('StockList.csv')
 After all tickers are saved. it is plotted as histogram plot. and the ticker is ranked by the appearnace count and saved to TickerList.csv
 
 
-```Python
+```python
 from collections import Counter
 import numpy as np
 import matplotlib.pyplot as plt
@@ -96,8 +96,6 @@ lists.to_csv('TickerList.csv')
 # add labels
 plt.xticks(indexes + bar_width, labels)
 plt.show()
-
-
 ```
 
 
