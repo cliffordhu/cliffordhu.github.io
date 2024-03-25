@@ -1,7 +1,7 @@
 ---
 title: '2024-03-24 ETF Scrapper'
 date: 2024-03-21
-permalink: /posts/2024/03/ETF-Scrapper/
+permalink: /posts/2024/03/TickerSelectionFromEFTdBParser/
 tags:
   - ETFDB scrapper
   - How to select the pool of tickers
