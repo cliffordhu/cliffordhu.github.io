@@ -18,6 +18,7 @@ tags:
   - max_sample (bootstrap sample) 0.8
   - max_features 120
 
+<details>
   
 # **Random Forest Hyperparameter #1: max_depth**
 Let’s discuss the critical max_depth hyperparameter first. The max_depth of a tree in Random Forest is defined as the longest path between the root node and the leaf node:
@@ -87,3 +88,4 @@ We can see that the performance of the model increases as the number of max_feat
 
 ### read this reference [Tuning the parameters of your Random Forest model](https://www.analyticsvidhya.com/blog/2020/03/beginners-guide-random-forest-hyperparameter-tuning/)
 
+</details>
