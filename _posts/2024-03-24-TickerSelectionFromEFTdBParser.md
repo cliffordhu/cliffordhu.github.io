@@ -7,8 +7,9 @@ tags:
   - How to select the pool of tickers
   - updated on 2024-03-24
 ---
-# ETFpy is a Python library that allows users to scrape data from etfdb.com, a website that provides comprehensive information on ETFs, including trading data, performance metrics, assets allocations end more.
+** ETFpy is a Python library that allows users to scrape data from etfdb.com, a website that provides comprehensive information on ETFs, including trading data, performance metrics, assets allocations and more.**
 
+<details>
 ## Installation
 Install with pip as a package pip
 ```python
@@ -98,5 +99,4 @@ plt.xticks(indexes + bar_width, labels)
 plt.show()
 ```
 
-
-** Result Table **
+</details>
