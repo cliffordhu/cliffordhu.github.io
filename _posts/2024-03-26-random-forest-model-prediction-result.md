@@ -11,7 +11,10 @@ tags:
 
 
 
-** Result Table **
+
+
+
+
 
 |         |   CLF_perdiction |   REG_perdiction |   CLF_Slope |   Total Score |   Rank |   Rank Percent |
 |:--------|-----------------:|-----------------:|------------:|--------------:|-------:|---------------:|
