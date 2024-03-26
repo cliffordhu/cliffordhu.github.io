@@ -15,7 +15,7 @@ tags:
 
 
 
-
+** table result**
 |         |   CLF_perdiction |   REG_perdiction |   CLF_Slope |   Total Score |   Rank |   Rank Percent |
 |:--------|-----------------:|-----------------:|------------:|--------------:|-------:|---------------:|
 | VST     |         4.89238  |      0.293487    |    5.18587  |      5.18587  |      1 |           1    |
