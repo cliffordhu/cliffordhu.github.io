@@ -12,7 +12,7 @@ tags:
 
 # Model Selection
 
-</details>
+<details>
 Time series prediction models come in many flavors, each with strengths and weaknesses. Most commonly used models are
 
 - **ARIMA (Autoregressive Integrated Moving Average):** This classic model excels at capturing trends and seasonality in data. It's relatively simple to understand and implement, but it struggles with non-linear patterns and external factors. Also it has a single variable input.
