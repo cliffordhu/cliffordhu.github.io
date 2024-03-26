@@ -10,6 +10,7 @@ tags:
 ** ETFpy is a Python library that allows users to scrape data from etfdb.com, a website that provides comprehensive information on ETFs, including trading data, performance metrics, assets allocations and more.**
 
 <details>
+  
 ## Installation
 Install with pip as a package pip
 ```python
