@@ -12,6 +12,7 @@ tags:
 
 # Model Selection
 
+</details>
 Time series prediction models come in many flavors, each with strengths and weaknesses. Most commonly used models are
 
 - **ARIMA (Autoregressive Integrated Moving Average):** This classic model excels at capturing trends and seasonality in data. It's relatively simple to understand and implement, but it struggles with non-linear patterns and external factors. Also it has a single variable input.
@@ -184,3 +185,5 @@ self.classifier=RandomForestClassifier(n_estimators=self.N, random_state=0,max_f
 self.classifier.fit(dataX.to_numpy(),dataY\[f'Y_metaclass_{SelectedSetN}'\].to_numpy())
 ```
 # **Model Training and HyperParameter Tuning:**   
+to be continued....
+</details>
