@@ -10,7 +10,7 @@ tags:
 
 ** This is the rank list for the Tickers from uptrend to downtrend run on 2024-03-18. CLF prediction is the classifier result. REG is the regression result. It is ranked by Total score ** 
 
-
+<details>
 
 |         |   CLF_perdiction |   REG_perdiction |   Total Score |   Rank |   Rank Percent |
 |:--------|-----------------:|-----------------:|--------------:|-------:|---------------:|
@@ -204,3 +204,5 @@ tags:
 | FDX     |       -2.788     |     -0.38334     |   -3.17134    |    188 |           0.01 |
 | PNC     |       -3.10419   |     -0.100245    |   -3.20443    |    189 |           0.01 |
 | PFE     |       -3.20809   |     -0.0926103   |   -3.3007     |    190 |           0    |
+
+</details>
