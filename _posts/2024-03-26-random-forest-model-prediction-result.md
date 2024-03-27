@@ -17,7 +17,7 @@ tags:
 
 |     | Symbol                                                        | Vote for Positve %   | 5day Trend of Vote                           |   Mean K predicted by reggresion |   Total Score |   Rank |   Rank Percent |
 |----:|:--------------------------------------------------------------|:---------------------|:---------------------------------------------|---------------------------------:|--------------:|-------:|---------------:|
-|   0 | [VST](https://finance.yahoo.com/quote/VST/financials)         | 98.0%                | <span style="color: red;"> -0.01801 </span>  |                      0.293537    |     5.09878   |      1 |           1    |
+|   0 | [VST](https://finance.yahoo.com/quote/VST/financials)         | 98.0%                | <span style="color: red"> -0.01801 </span>  |                      0.293537    |     5.09878   |      1 |           1    |
 |   1 | [EPD](https://finance.yahoo.com/quote/EPD/financials)         | 98.0%                | <span style="color: green;"> 0.00942 </span> |                      0.0285149   |     4.79037   |      2 |           0.99 |
 |   2 | [EME](https://finance.yahoo.com/quote/EME/financials)         | 95.0%                | <span style="color: red;"> -0.05318 </span>  |                      0.578622    |     5.12156   |      3 |           0.99 |
 |   3 | [PCAR](https://finance.yahoo.com/quote/PCAR/financials)       | 95.0%                | <span style="color: red;"> -0.0045 </span>   |                      0.185745    |     4.71703   |      4 |           0.98 |
