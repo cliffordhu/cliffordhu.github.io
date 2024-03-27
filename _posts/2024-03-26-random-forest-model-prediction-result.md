@@ -8,219 +8,223 @@ tags:
   - updated on 2024-03-26
 ---
 ** This is the rank list for the Tickers from uptrend to downtrend run on 2024-03-26. CLF prediction is the classifier result. REG is the regression result. It is ranked by Total score ** 
-<details>    
-**Table Result**
 
 
-|         |   CLF_perdiction |   REG_perdiction |   CLF_Slope |   Total Score |   Rank |   Rank Percent |
-|:--------|-----------------:|-----------------:|------------:|--------------:|-------:|---------------:|
-| VST     |         4.89238  |      0.293487    |    5.18587  |      5.18587  |      1 |           1    |
-| EPD     |         4.64121  |      0.0293319   |    4.67055  |      4.67055  |      2 |           0.99 |
-| EME     |         4.56428  |      0.551366    |    5.11564  |      5.11564  |      3 |           0.99 |
-| PCAR    |         4.56197  |      0.185235    |    4.74721  |      4.74721  |      4 |           0.98 |
-| MSTR    |         4.28501  |      5.55932     |    9.84433  |      9.84433  |      5 |           0.98 |
-| PGR     |         4.19176  |      0.0516571   |    4.24342  |      4.24342  |      6 |           0.97 |
-| VGT     |         4.011    |      0.0740654   |    4.08507  |      4.08507  |      7 |           0.97 |
-| AMZN    |         3.99289  |      0.0927751   |    4.08567  |      4.08567  |      8 |           0.96 |
-| BLDR    |         3.89749  |      0.0847137   |    3.98221  |      3.98221  |      9 |           0.96 |
-| TTE     |         3.88734  |      0.0587669   |    3.9461   |      3.9461   |     10 |           0.95 |
-| CTVA    |         3.78953  |      0.058588    |    3.84812  |      3.84812  |     11 |           0.95 |
-| CSL     |         3.787    |      0.503527    |    4.29053  |      4.29053  |     12 |           0.94 |
-| AFL     |         3.76044  |      0.0765237   |    3.83696  |      3.83696  |     13 |           0.94 |
-| WMB     |         3.71603  |      0.0478239   |    3.76385  |      3.76385  |     14 |           0.93 |
-| ANET    |         3.71019  |      0.194186    |    3.90437  |      3.90437  |     15 |           0.93 |
-| ONON    |         3.68163  |      0.101113    |    3.78274  |      3.78274  |     16 |           0.92 |
-| XLK     |         3.68015  |      0.0144074   |    3.69456  |      3.69456  |     17 |           0.92 |
-| VEEV    |         3.60624  |      0.236422    |    3.84267  |      3.84267  |     18 |           0.91 |
-| MCK     |         3.58111  |      0.220185    |    3.80129  |      3.80129  |     19 |           0.91 |
-| NFLX    |         3.56618  |      0.305464    |    3.87165  |      3.87165  |     20 |           0.9  |
-| XLF     |         3.47902  |      0.01867     |    3.49769  |      3.49769  |     21 |           0.9  |
-| DECK    |         3.45126  |      0.282446    |    3.73371  |      3.73371  |     22 |           0.89 |
-| FAST    |         3.39933  |      0.0553916   |    3.45473  |      3.45473  |     23 |           0.89 |
-| FIX     |         3.3766   |      0.0965239   |    3.47313  |      3.47313  |     24 |           0.89 |
-| XLY     |         3.36182  |      0.0660251   |    3.42785  |      3.42785  |     25 |           0.88 |
-| FANG    |         3.34627  |      0.271096    |    3.61736  |      3.61736  |     26 |           0.88 |
-| ALV     |         3.30174  |      0.167782    |    3.46952  |      3.46952  |     27 |           0.87 |
-| BILL    |         3.29155  |      0.736242    |    4.02779  |      4.02779  |     28 |           0.87 |
-| META    |         3.2447   |      0.164605    |    3.4093   |      3.4093   |     29 |           0.86 |
-| NVDA    |         3.22308  |      0.485287    |    3.70836  |      3.70836  |     30 |           0.86 |
-| SU      |         3.21584  |      0.0575469   |    3.27338  |      3.27338  |     31 |           0.85 |
-| ADP     |         3.16761  |      0.12245     |    3.29006  |      3.29006  |     32 |           0.85 |
-| MSFT    |         3.16565  |      0.320566    |    3.48621  |      3.48621  |     33 |           0.84 |
-| TRU     |         3.15051  |      0.0769157   |    3.22743  |      3.22743  |     34 |           0.84 |
-| XLB     |         3.13752  |      0.103923    |    3.24144  |      3.24144  |     35 |           0.83 |
-| FDIS    |         3.08955  |      0.0401906   |    3.12974  |      3.12974  |     36 |           0.83 |
-| XLI     |         3.07499  |      0.106512    |    3.1815   |      3.1815   |     37 |           0.82 |
-| EMR     |         3.05593  |      0.0562252   |    3.11216  |      3.11216  |     38 |           0.82 |
-| MA      |         3.05132  |     -0.574334    |    2.47699  |      2.47699  |     39 |           0.81 |
-| ITW     |         3.03587  |      0.14366     |    3.17954  |      3.17954  |     40 |           0.81 |
-| ROP     |         3.01775  |      0.202521    |    3.22027  |      3.22027  |     41 |           0.8  |
-| C       |         3.00449  |      0.117437    |    3.12192  |      3.12192  |     42 |           0.8  |
-| SPY     |         2.9847   |      0.187783    |    3.17249  |      3.17249  |     43 |           0.79 |
-| QQQ     |         2.96871  |      0.136571    |    3.10528  |      3.10528  |     44 |           0.79 |
-| CRWD    |         2.95901  |      0.154906    |    3.11391  |      3.11391  |     45 |           0.78 |
-| AXP     |         2.94652  |      0.128644    |    3.07517  |      3.07517  |     46 |           0.78 |
-| CSCO    |         2.93675  |      0.0173762   |    2.95412  |      2.95412  |     47 |           0.78 |
-| KR      |         2.92887  |      0.0666118   |    2.99548  |      2.99548  |     48 |           0.77 |
-| CEG     |         2.92578  |      0.357557    |    3.28334  |      3.28334  |     49 |           0.77 |
-| GE      |         2.92362  |      0.161732    |    3.08535  |      3.08535  |     50 |           0.76 |
-| CMG     |         2.91868  |      2.28782     |    5.2065   |      5.2065   |     51 |           0.76 |
-| AAPL    |         2.91734  |      0.0557621   |    2.97311  |      2.97311  |     52 |           0.75 |
-| PSX     |         2.91682  |      0.229599    |    3.14642  |      3.14642  |     53 |           0.75 |
-| DXJ     |         2.91363  |      0.0297698   |    2.9434   |      2.9434   |     54 |           0.74 |
-| VFH     |         2.87726  |      0.0554343   |    2.93269  |      2.93269  |     55 |           0.74 |
-| ZBH     |         2.85762  |      0.072863    |    2.93048  |      2.93048  |     56 |           0.73 |
-| PYPL    |         2.82836  |      0.600109    |    3.42847  |      3.42847  |     57 |           0.73 |
-| JPM     |         2.79478  |      0.162711    |    2.95749  |      2.95749  |     58 |           0.72 |
-| OXY     |         2.78319  |      0.110315    |    2.8935   |      2.8935   |     59 |           0.72 |
-| CDNS    |         2.78239  |      0.0636604   |    2.84605  |      2.84605  |     60 |           0.71 |
-| VOX     |         2.72124  |      0.133771    |    2.85501  |      2.85501  |     61 |           0.71 |
-| V       |         2.66788  |      0.116122    |    2.784    |      2.784    |     62 |           0.7  |
-| HD      |         2.66499  |      0.213759    |    2.87874  |      2.87874  |     63 |           0.7  |
-| ULVR.L  |         2.63517  |      1.99156     |    4.62673  |      4.62673  |     64 |           0.69 |
-| ALL     |         2.58745  |      0.106381    |    2.69383  |      2.69383  |     65 |           0.69 |
-| TROW    |         2.58082  |      0.0792461   |    2.66007  |      2.66007  |     66 |           0.68 |
-| QCOM    |         2.58045  |      0.116228    |    2.69668  |      2.69668  |     67 |           0.68 |
-| TER     |         2.57792  |      0.0853486   |    2.66327  |      2.66327  |     68 |           0.67 |
-| ROG     |         2.5616   |      0.112382    |    2.67399  |      2.67399  |     69 |           0.67 |
-| TJX     |         2.55624  |      0.0290594   |    2.5853   |      2.5853   |     70 |           0.67 |
-| RS      |         2.5495   |      0.146136    |    2.69564  |      2.69564  |     71 |           0.66 |
-| PNC     |         2.53186  |     -0.30717     |    2.22469  |      2.22469  |     72 |           0.66 |
-| CMCSA   |         2.52205  |      0.0252302   |    2.54728  |      2.54728  |     73 |           0.65 |
-| ECL     |         2.51993  |     -0.0625531   |    2.45738  |      2.45738  |     74 |           0.65 |
-| LOW     |         2.51123  |      0.292306    |    2.80354  |      2.80354  |     75 |           0.64 |
-| XLP     |         2.5106   |      0.0206247   |    2.53123  |      2.53123  |     76 |           0.64 |
-| WSM     |         2.50029  |      1.42333     |    3.92362  |      3.92362  |     77 |           0.63 |
-| IYK     |         2.48117  |      0.033322    |    2.51449  |      2.51449  |     78 |           0.63 |
-| WFC     |         2.48078  |      0.0732488   |    2.55403  |      2.55403  |     79 |           0.62 |
-| KO      |         2.43713  |      0.0217871   |    2.45892  |      2.45892  |     80 |           0.62 |
-| UPS     |         2.41311  |      0.135852    |    2.54896  |      2.54896  |     81 |           0.61 |
-| USB     |         2.38855  |      0.0120107   |    2.40057  |      2.40057  |     82 |           0.61 |
-| SHW     |         2.37875  |      0.0994644   |    2.47821  |      2.47821  |     83 |           0.6  |
-| PFE     |         2.358    |      0.0426613   |    2.40067  |      2.40067  |     84 |           0.6  |
-| CAT     |         2.33673  |      0.312725    |    2.64945  |      2.64945  |     85 |           0.59 |
-| DIS     |         2.32742  |      0.17155     |    2.49897  |      2.49897  |     86 |           0.59 |
-| SNPS    |         2.26127  |      0.057595    |    2.31886  |      2.31886  |     87 |           0.58 |
-| WM      |         2.24733  |      0.0904263   |    2.33776  |      2.33776  |     88 |           0.58 |
-| BAC     |         2.24689  |      0.0307822   |    2.27768  |      2.27768  |     89 |           0.57 |
-| PDD     |         2.24329  |     -0.000252118 |    2.24304  |      2.24304  |     90 |           0.57 |
-| OKE     |         2.2008   |      0.0372739   |    2.23808  |      2.23808  |     91 |           0.56 |
-| PG      |         2.19462  |      0.00582448  |    2.20045  |      2.20045  |     92 |           0.56 |
-| NOW     |         2.16698  |      0.170539    |    2.33752  |      2.33752  |     93 |           0.56 |
-| COIN    |         2.15973  |      1.34502     |    3.50475  |      3.50475  |     94 |           0.55 |
-| SAP     |         2.15017  |      0.0976724   |    2.24785  |      2.24785  |     95 |           0.55 |
-| PXD     |         2.13539  |      0.260677    |    2.39607  |      2.39607  |     96 |           0.54 |
-| GOOG    |         2.11778  |      0.216526    |    2.3343   |      2.3343   |     97 |           0.54 |
-| MRK     |         2.112    |      0.00142284  |    2.11343  |      2.11343  |     98 |           0.53 |
-| WDAY    |         2.09214  |      0.462083    |    2.55422  |      2.55422  |     99 |           0.53 |
-| COP     |         2.08829  |      0.266556    |    2.35485  |      2.35485  |    100 |           0.52 |
-| CPB     |         2.06479  |     -0.008087    |    2.0567   |      2.0567   |    101 |           0.52 |
-| XLE     |         2.0543   |      0.145466    |    2.19977  |      2.19977  |    102 |           0.51 |
-| MDLZ    |         2.04007  |      0.0103752   |    2.05045  |      2.05045  |    103 |           0.51 |
-| A       |         2.02331  |     -0.0963072   |    1.92701  |      1.92701  |    104 |           0.5  |
-| ORCL    |         2.01359  |      0.446768    |    2.46036  |      2.46036  |    105 |           0.5  |
-| FDX     |         1.98644  |      0.511366    |    2.49781  |      2.49781  |    106 |           0.49 |
-| ADSK    |         1.94872  |      0.0929494   |    2.04167  |      2.04167  |    107 |           0.49 |
-| LMT     |         1.93159  |      0.0334805   |    1.96507  |      1.96507  |    108 |           0.48 |
-| MMM     |         1.91808  |      0.14149     |    2.05957  |      2.05957  |    109 |           0.48 |
-| NEE     |         1.91438  |      0.122463    |    2.03684  |      2.03684  |    110 |           0.47 |
-| MPC     |         1.91201  |     -0.28802     |    1.62399  |      1.62399  |    111 |           0.47 |
-| EXPE    |         1.88351  |     -0.00611551  |    1.87739  |      1.87739  |    112 |           0.46 |
-| VLO     |         1.83754  |      0.235301    |    2.07284  |      2.07284  |    113 |           0.46 |
-| XOM     |         1.8159   |      0.265375    |    2.08128  |      2.08128  |    114 |           0.45 |
-| WMT     |         1.80365  |      0.0108788   |    1.81453  |      1.81453  |    115 |           0.45 |
-| MU      |         1.79691  |      0.0904881   |    1.8874   |      1.8874   |    116 |           0.44 |
-| BK      |         1.72018  |      0.00499766  |    1.72518  |      1.72518  |    117 |           0.44 |
-| SCHW    |         1.71083  |      0.05332     |    1.76415  |      1.76415  |    118 |           0.44 |
-| CVX     |         1.69501  |      0.0862275   |    1.78124  |      1.78124  |    119 |           0.43 |
-| IFF     |         1.65838  |      0.286489    |    1.94487  |      1.94487  |    120 |           0.43 |
-| XLC     |         1.61487  |      0.108965    |    1.72384  |      1.72384  |    121 |           0.42 |
-| PEP     |         1.49403  |      0.164441    |    1.65847  |      1.65847  |    122 |           0.42 |
-| HSBC    |         1.44479  |      0.0508022   |    1.49559  |      1.49559  |    123 |           0.41 |
-| ISRG    |         1.41045  |     -0.015932    |    1.39452  |      1.39452  |    124 |           0.41 |
-| RTX     |         1.37754  |      0.12067     |    1.49821  |      1.49821  |    125 |           0.4  |
-| BKNG    |         1.3544   |      0.70842     |    2.06282  |      2.06282  |    126 |           0.4  |
-| AZN     |         1.34523  |     -0.0252034   |    1.32002  |      1.32002  |    127 |           0.39 |
-| UNH     |         1.33245  |      0.220794    |    1.55324  |      1.55324  |    128 |           0.39 |
-| LIN     |         1.32732  |      0.0893475   |    1.41667  |      1.41667  |    129 |           0.38 |
-| MELI    |         1.29322  |     -0.0875534   |    1.20567  |      1.20567  |    130 |           0.38 |
-| T       |         1.24541  |     -0.000672454 |    1.24474  |      1.24474  |    131 |           0.37 |
-| MO      |         1.19336  |      0.142364    |    1.33572  |      1.33572  |    132 |           0.37 |
-| BHP     |         1.02918  |     -0.044572    |    0.984605 |      0.984605 |    133 |           0.36 |
-| VDE     |         1.01145  |      0.219365    |    1.23081  |      1.23081  |    134 |           0.36 |
-| SHEL    |         0.970898 |      0.094657    |    1.06556  |      1.06556  |    135 |           0.35 |
-| EOG     |         0.889832 |      0.144504    |    1.03434  |      1.03434  |    136 |           0.35 |
-| BP      |         0.870278 |      0.0115366   |    0.881815 |      0.881815 |    137 |           0.34 |
-| NESN.SW |         0.623882 |     -0.0335586   |    0.590323 |      0.590323 |    138 |           0.34 |
-| NUE     |         0.5621   |      0.0895652   |    0.651665 |      0.651665 |    139 |           0.33 |
-| KMI     |         0.525695 |      0.00627733  |    0.531972 |      0.531972 |    140 |           0.33 |
-| XLU     |         0.435751 |     -0.00103509  |    0.434716 |      0.434716 |    141 |           0.33 |
-| VZ      |         0.300865 |     -0.00708427  |    0.293781 |      0.293781 |    142 |           0.32 |
-| LULU    |        -0.38145  |     -0.0737651   |   -0.455215 |     -0.455215 |    143 |           0.32 |
-| ACN     |        -0.455492 |     -0.0997316   |   -0.555224 |     -0.555224 |    144 |           0.31 |
-| SMH     |        -0.690157 |      0.0645708   |   -0.625586 |     -0.625586 |    145 |           0.31 |
-| ABT     |        -0.734158 |     -0.12377     |   -0.857927 |     -0.857927 |    146 |           0.3  |
-| SOXX    |        -0.84257  |     -0.0565815   |   -0.899152 |     -0.899152 |    147 |           0.3  |
-| VNQ     |        -0.868618 |     -0.0296484   |   -0.898266 |     -0.898266 |    148 |           0.29 |
-| PLD     |        -0.945625 |     -0.0252437   |   -0.970869 |     -0.970869 |    149 |           0.29 |
-| MRVL    |        -1.04268  |     -0.125627    |   -1.1683   |     -1.1683   |    150 |           0.28 |
-| SIE.DE  |        -1.05509  |     -0.085939    |   -1.14102  |     -1.14102  |    151 |           0.28 |
-| ADI     |        -1.0993   |      0.074561    |   -1.02474  |     -1.02474  |    152 |           0.27 |
-| IWM     |        -1.17957  |     -0.0340636   |   -1.21363  |     -1.21363  |    153 |           0.27 |
-| FTNT    |        -1.20087  |     -0.0264199   |   -1.22729  |     -1.22729  |    154 |           0.26 |
-| CIBR    |        -1.22112  |     -0.00369811  |   -1.22481  |     -1.22481  |    155 |           0.26 |
-| TXN     |        -1.3466   |     -0.0142044   |   -1.36081  |     -1.36081  |    156 |           0.25 |
-| SYK     |        -1.35177  |     -0.0564801   |   -1.40826  |     -1.40826  |    157 |           0.25 |
-| EL      |        -1.36894  |      0.0423284   |   -1.32661  |     -1.32661  |    158 |           0.24 |
-| EFX     |        -1.39718  |     -0.0731559   |   -1.47034  |     -1.47034  |    159 |           0.24 |
-| KEYS    |        -1.43837  |     -0.11411     |   -1.55248  |     -1.55248  |    160 |           0.23 |
-| ICE     |        -1.5339   |     -0.00967101  |   -1.54357  |     -1.54357  |    161 |           0.23 |
-| WAT     |        -1.56702  |      0.10822     |   -1.45879  |     -1.45879  |    162 |           0.22 |
-| KLAC    |        -1.58125  |      0.103429    |   -1.47783  |     -1.47783  |    163 |           0.22 |
-| JNJ     |        -1.6003   |     -0.124139    |   -1.72444  |     -1.72444  |    164 |           0.22 |
-| BMY     |        -1.60069  |     -0.0138301   |   -1.61452  |     -1.61452  |    165 |           0.21 |
-| ASML    |        -1.6037   |      0.00247324  |   -1.60123  |     -1.60123  |    166 |           0.21 |
-| TMO     |        -1.61826  |     -0.083621    |   -1.70188  |     -1.70188  |    167 |           0.2  |
-| IBM     |        -1.63475  |      0.0927149   |   -1.54204  |     -1.54204  |    168 |           0.2  |
-| BLK     |        -1.73339  |     -0.0322416   |   -1.76564  |     -1.76564  |    169 |           0.19 |
-| AMGN    |        -1.73439  |      0.0572791   |   -1.67711  |     -1.67711  |    170 |           0.19 |
-| COST    |        -1.79418  |      0.189277    |   -1.60491  |     -1.60491  |    171 |           0.18 |
-| TSM     |        -1.79678  |      0.0129147   |   -1.78387  |     -1.78387  |    172 |           0.18 |
-| NKE     |        -1.82205  |     -0.0302098   |   -1.85226  |     -1.85226  |    173 |           0.17 |
-| AVGO    |        -1.82858  |     -0.249119    |   -2.0777   |     -2.0777   |    174 |           0.17 |
-| AMD     |        -1.91171  |     -0.168115    |   -2.07982  |     -2.07982  |    175 |           0.16 |
-| MCHP    |        -1.94976  |      0.0260833   |   -1.92368  |     -1.92368  |    176 |           0.16 |
-| JBL     |        -1.98036  |     -0.257314    |   -2.23768  |     -2.23768  |    177 |           0.15 |
-| MCD     |        -2.0082   |     -0.237758    |   -2.24595  |     -2.24595  |    178 |           0.15 |
-| Z       |        -2.0106   |     -0.295416    |   -2.30601  |     -2.30601  |    179 |           0.14 |
-| MDT     |        -2.04803  |     -0.0554757   |   -2.10351  |     -2.10351  |    180 |           0.14 |
-| AMAT    |        -2.11863  |     -0.00588466  |   -2.12451  |     -2.12451  |    181 |           0.13 |
-| INTC    |        -2.1361   |     -0.0630523   |   -2.19916  |     -2.19916  |    182 |           0.13 |
-| NOVN.SW |        -2.24635  |     -0.036475    |   -2.28283  |     -2.28283  |    183 |           0.12 |
-| BIIB    |        -2.25285  |     -0.135297    |   -2.38815  |     -2.38815  |    184 |           0.12 |
-| PANW    |        -2.26401  |      0.0994854   |   -2.16452  |     -2.16452  |    185 |           0.11 |
-| TSLA    |        -2.26497  |     -0.320684    |   -2.58566  |     -2.58566  |    186 |           0.11 |
-| REGN    |        -2.26743  |     -0.0205392   |   -2.28797  |     -2.28797  |    187 |           0.11 |
-| LRCX    |        -2.27139  |      0.201239    |   -2.07015  |     -2.07015  |    188 |           0.1  |
-| TLT     |        -2.29457  |     -0.065312    |   -2.35988  |     -2.35988  |    189 |           0.1  |
-| MAS     |        -2.30503  |     -0.00590052  |   -2.31093  |     -2.31093  |    190 |           0.09 |
-| XLV     |        -2.37229  |     -0.0154918   |   -2.38778  |     -2.38778  |    191 |           0.09 |
-| XBI     |        -2.38673  |     -0.110716    |   -2.49744  |     -2.49744  |    192 |           0.08 |
-| SPGI    |        -2.49877  |     -0.0759228   |   -2.5747   |     -2.5747   |    193 |           0.08 |
-| CRM     |        -2.51396  |      0.0318785   |   -2.48208  |     -2.48208  |    194 |           0.07 |
-| HON     |        -2.52221  |     -0.0659455   |   -2.58815  |     -2.58815  |    195 |           0.07 |
-| MDB     |        -2.59005  |     -2.2933      |   -4.88335  |     -4.88335  |    196 |           0.06 |
-| ABBV    |        -2.62055  |     -0.0484522   |   -2.669    |     -2.669    |    197 |           0.06 |
-| VHT     |        -2.66802  |     -0.0524874   |   -2.7205   |     -2.7205   |    198 |           0.05 |
-| SMCI    |        -2.67078  |     -0.258888    |   -2.92966  |     -2.92966  |    199 |           0.05 |
-| HII     |        -2.69369  |     -0.0055678   |   -2.69925  |     -2.69925  |    200 |           0.04 |
-| ADBE    |        -2.83527  |     -0.924225    |   -3.7595   |     -3.7595   |    201 |           0.04 |
-| TOELY   |        -3.06257  |      0.00332884  |   -3.05924  |     -3.05924  |    202 |           0.03 |
-| INTU    |        -3.08398  |      0.0654742   |   -3.01851  |     -3.01851  |    203 |           0.03 |
-| IBB     |        -3.17494  |     -0.0536965   |   -3.22864  |     -3.22864  |    204 |           0.02 |
-| UBER    |        -3.29773  |      0.0107586   |   -3.28697  |     -3.28697  |    205 |           0.02 |
-| LLY     |        -3.30876  |      0.151494    |   -3.15726  |     -3.15726  |    206 |           0.01 |
-| NET     |        -3.37615  |     -0.229448    |   -3.60559  |     -3.60559  |    207 |           0.01 |
-| BA      |        -3.45744  |     -0.615879    |   -4.07332  |     -4.07332  |    208 |           0    |
-| DDOG    |        -4.06305  |     -0.19377     |   -4.25682  |     -4.25682  |    209 |           0    |
-</details>
+
+** Result Table **
+
+<details>
+
+|     | Symbol                                                                                                                                                                    |   CLF_perdiction |   CLF_K_perdiction |   REG_perdiction |   Total Score |   Rank |   Rank Percent |
+|----:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------:|-------------------:|-----------------:|--------------:|-------:|---------------:|
+|   0 | [[VST](https://finance.yahoo.com/quote/VST/financials)](https://finance.yahoo.com/quote/[VST](https://finance.yahoo.com/quote/VST/financials)/financials)                 |         4.80524  |        -0.0180106  |      0.293537    |     5.09878   |      1 |           1    |
+|   1 | [[EPD](https://finance.yahoo.com/quote/EPD/financials)](https://finance.yahoo.com/quote/[EPD](https://finance.yahoo.com/quote/EPD/financials)/financials)                 |         4.76186  |         0.0094199  |      0.0285149   |     4.79037   |      2 |           0.99 |
+|   2 | [[EME](https://finance.yahoo.com/quote/EME/financials)](https://finance.yahoo.com/quote/[EME](https://finance.yahoo.com/quote/EME/financials)/financials)                 |         4.54294  |        -0.0531838  |      0.578622    |     5.12156   |      3 |           0.99 |
+|   3 | [[PCAR](https://finance.yahoo.com/quote/PCAR/financials)](https://finance.yahoo.com/quote/[PCAR](https://finance.yahoo.com/quote/PCAR/financials)/financials)             |         4.53128  |        -0.0045008  |      0.185745    |     4.71703   |      4 |           0.98 |
+|   4 | [[MSTR](https://finance.yahoo.com/quote/MSTR/financials)](https://finance.yahoo.com/quote/[MSTR](https://finance.yahoo.com/quote/MSTR/financials)/financials)             |         4.22838  |        -0.114852   |      5.81083     |    10.0392    |      5 |           0.98 |
+|   5 | [[PGR](https://finance.yahoo.com/quote/PGR/financials)](https://finance.yahoo.com/quote/[PGR](https://finance.yahoo.com/quote/PGR/financials)/financials)                 |         4.04528  |        -0.0692849  |      0.0370015   |     4.08228   |      6 |           0.97 |
+|   6 | [[BLDR](https://finance.yahoo.com/quote/BLDR/financials)](https://finance.yahoo.com/quote/[BLDR](https://finance.yahoo.com/quote/BLDR/financials)/financials)             |         3.91234  |         0.018343   |      0.090746    |     4.00308   |      7 |           0.97 |
+|   7 | [[TTE](https://finance.yahoo.com/quote/TTE/financials)](https://finance.yahoo.com/quote/[TTE](https://finance.yahoo.com/quote/TTE/financials)/financials)                 |         3.83837  |        -0.0757491  |      0.0584592   |     3.89683   |      8 |           0.96 |
+|   8 | [[AMZN](https://finance.yahoo.com/quote/AMZN/financials)](https://finance.yahoo.com/quote/[AMZN](https://finance.yahoo.com/quote/AMZN/financials)/financials)             |         3.82934  |         0.0168702  |      0.0986089   |     3.92795   |      9 |           0.96 |
+|   9 | [[ONON](https://finance.yahoo.com/quote/ONON/financials)](https://finance.yahoo.com/quote/[ONON](https://finance.yahoo.com/quote/ONON/financials)/financials)             |         3.81151  |        -0.133205   |      0.0991584   |     3.91067   |     10 |           0.95 |
+|  10 | [[CSL](https://finance.yahoo.com/quote/CSL/financials)](https://finance.yahoo.com/quote/[CSL](https://finance.yahoo.com/quote/CSL/financials)/financials)                 |         3.78631  |        -0.129629   |      0.498633    |     4.28494   |     11 |           0.95 |
+|  11 | [[AFL](https://finance.yahoo.com/quote/AFL/financials)](https://finance.yahoo.com/quote/[AFL](https://finance.yahoo.com/quote/AFL/financials)/financials)                 |         3.75303  |        -0.0999241  |      0.0734558   |     3.82648   |     12 |           0.94 |
+|  12 | [[VGT](https://finance.yahoo.com/quote/VGT/financials)](https://finance.yahoo.com/quote/[VGT](https://finance.yahoo.com/quote/VGT/financials)/financials)                 |         3.71978  |        -0.127036   |      0.0681426   |     3.78793   |     13 |           0.94 |
+|  13 | [[WMB](https://finance.yahoo.com/quote/WMB/financials)](https://finance.yahoo.com/quote/[WMB](https://finance.yahoo.com/quote/WMB/financials)/financials)                 |         3.7165   |        -0.154539   |      0.0476912   |     3.76419   |     14 |           0.93 |
+|  14 | [[XLK](https://finance.yahoo.com/quote/XLK/financials)](https://finance.yahoo.com/quote/[XLK](https://finance.yahoo.com/quote/XLK/financials)/financials)                 |         3.6547   |        -0.0813857  |      0.0265425   |     3.68124   |     15 |           0.93 |
+|  15 | [[VEEV](https://finance.yahoo.com/quote/VEEV/financials)](https://finance.yahoo.com/quote/[VEEV](https://finance.yahoo.com/quote/VEEV/financials)/financials)             |         3.63058  |        -0.0970961  |      0.236455    |     3.86704   |     16 |           0.92 |
+|  16 | [[ANET](https://finance.yahoo.com/quote/ANET/financials)](https://finance.yahoo.com/quote/[ANET](https://finance.yahoo.com/quote/ANET/financials)/financials)             |         3.55277  |        -0.261726   |      0.214534    |     3.7673    |     17 |           0.92 |
+|  17 | [[TRU](https://finance.yahoo.com/quote/TRU/financials)](https://finance.yahoo.com/quote/[TRU](https://finance.yahoo.com/quote/TRU/financials)/financials)                 |         3.47151  |        -0.138945   |      0.0722746   |     3.54378   |     18 |           0.91 |
+|  18 | [[MCK](https://finance.yahoo.com/quote/MCK/financials)](https://finance.yahoo.com/quote/[MCK](https://finance.yahoo.com/quote/MCK/financials)/financials)                 |         3.44712  |        -0.0902782  |      0.207132    |     3.65425   |     19 |           0.91 |
+|  19 | [[NFLX](https://finance.yahoo.com/quote/NFLX/financials)](https://finance.yahoo.com/quote/[NFLX](https://finance.yahoo.com/quote/NFLX/financials)/financials)             |         3.44245  |        -0.107085   |      0.303718    |     3.74617   |     20 |           0.9  |
+|  20 | [[FDIS](https://finance.yahoo.com/quote/FDIS/financials)](https://finance.yahoo.com/quote/[FDIS](https://finance.yahoo.com/quote/FDIS/financials)/financials)             |         3.39907  |        -0.0171121  |      0.0462946   |     3.44537   |     21 |           0.9  |
+|  21 | [[BILL](https://finance.yahoo.com/quote/BILL/financials)](https://finance.yahoo.com/quote/[BILL](https://finance.yahoo.com/quote/BILL/financials)/financials)             |         3.37308  |        -0.128263   |      0.927774    |     4.30085   |     22 |           0.89 |
+|  22 | [[CTVA](https://finance.yahoo.com/quote/CTVA/financials)](https://finance.yahoo.com/quote/[CTVA](https://finance.yahoo.com/quote/CTVA/financials)/financials)             |         3.34331  |        -0.232801   |      0.0589755   |     3.40228   |     23 |           0.89 |
+|  23 | [[XLF](https://finance.yahoo.com/quote/XLF/financials)](https://finance.yahoo.com/quote/[XLF](https://finance.yahoo.com/quote/XLF/financials)/financials)                 |         3.34003  |        -0.176491   |      0.023967    |     3.364     |     24 |           0.89 |
+|  24 | [[DECK](https://finance.yahoo.com/quote/DECK/financials)](https://finance.yahoo.com/quote/[DECK](https://finance.yahoo.com/quote/DECK/financials)/financials)             |         3.33326  |        -0.2068     |      0.245345    |     3.5786    |     25 |           0.88 |
+|  25 | [[XLY](https://finance.yahoo.com/quote/XLY/financials)](https://finance.yahoo.com/quote/[XLY](https://finance.yahoo.com/quote/XLY/financials)/financials)                 |         3.32983  |        -0.0506653  |      0.068699    |     3.39853   |     26 |           0.88 |
+|  26 | [[ALV](https://finance.yahoo.com/quote/ALV/financials)](https://finance.yahoo.com/quote/[ALV](https://finance.yahoo.com/quote/ALV/financials)/financials)                 |         3.31913  |         0.0705199  |      0.171376    |     3.49051   |     27 |           0.87 |
+|  27 | [[NVDA](https://finance.yahoo.com/quote/NVDA/financials)](https://finance.yahoo.com/quote/[NVDA](https://finance.yahoo.com/quote/NVDA/financials)/financials)             |         3.30226  |         0.021122   |      0.509528    |     3.81179   |     28 |           0.87 |
+|  28 | [[FIX](https://finance.yahoo.com/quote/FIX/financials)](https://finance.yahoo.com/quote/[FIX](https://finance.yahoo.com/quote/FIX/financials)/financials)                 |         3.30052  |        -0.177896   |      0.103146    |     3.40366   |     29 |           0.86 |
+|  29 | [[FAST](https://finance.yahoo.com/quote/FAST/financials)](https://finance.yahoo.com/quote/[FAST](https://finance.yahoo.com/quote/FAST/financials)/financials)             |         3.28773  |        -0.121629   |      0.0527996   |     3.34053   |     30 |           0.86 |
+|  30 | [[CRWD](https://finance.yahoo.com/quote/CRWD/financials)](https://finance.yahoo.com/quote/[CRWD](https://finance.yahoo.com/quote/CRWD/financials)/financials)             |         3.17327  |        -0.229325   |      0.189799    |     3.36307   |     31 |           0.85 |
+|  31 | [[META](https://finance.yahoo.com/quote/META/financials)](https://finance.yahoo.com/quote/[META](https://finance.yahoo.com/quote/META/financials)/financials)             |         3.11105  |        -0.131801   |      0.245446    |     3.3565    |     32 |           0.85 |
+|  32 | [[FANG](https://finance.yahoo.com/quote/FANG/financials)](https://finance.yahoo.com/quote/[FANG](https://finance.yahoo.com/quote/FANG/financials)/financials)             |         3.06364  |        -0.24128    |      0.254262    |     3.3179    |     33 |           0.84 |
+|  33 | [[MA](https://finance.yahoo.com/quote/MA/financials)](https://finance.yahoo.com/quote/[MA](https://finance.yahoo.com/quote/MA/financials)/financials)                     |         3.059    |        -0.223246   |     -0.59454     |     2.46446   |     34 |           0.84 |
+|  34 | [[EMR](https://finance.yahoo.com/quote/EMR/financials)](https://finance.yahoo.com/quote/[EMR](https://finance.yahoo.com/quote/EMR/financials)/financials)                 |         3.04966  |        -0.21674    |      0.0495551   |     3.09921   |     35 |           0.83 |
+|  35 | [[KR](https://finance.yahoo.com/quote/KR/financials)](https://finance.yahoo.com/quote/[KR](https://finance.yahoo.com/quote/KR/financials)/financials)                     |         3.04441  |        -0.160292   |      0.0762681   |     3.12067   |     36 |           0.83 |
+|  36 | [[MSFT](https://finance.yahoo.com/quote/MSFT/financials)](https://finance.yahoo.com/quote/[MSFT](https://finance.yahoo.com/quote/MSFT/financials)/financials)             |         3.04039  |        -0.126055   |      0.31386     |     3.35425   |     37 |           0.82 |
+|  37 | [[ITW](https://finance.yahoo.com/quote/ITW/financials)](https://finance.yahoo.com/quote/[ITW](https://finance.yahoo.com/quote/ITW/financials)/financials)                 |         3.02384  |         0.144968   |      0.148408    |     3.17225   |     38 |           0.82 |
+|  38 | [[CSCO](https://finance.yahoo.com/quote/CSCO/financials)](https://finance.yahoo.com/quote/[CSCO](https://finance.yahoo.com/quote/CSCO/financials)/financials)             |         2.99816  |        -0.0483586  |      0.0218563   |     3.02001   |     39 |           0.81 |
+|  39 | [[DXJ](https://finance.yahoo.com/quote/DXJ/financials)](https://finance.yahoo.com/quote/[DXJ](https://finance.yahoo.com/quote/DXJ/financials)/financials)                 |         2.9965   |        -0.0765706  |      0.0353446   |     3.03184   |     40 |           0.81 |
+|  40 | [[AAPL](https://finance.yahoo.com/quote/AAPL/financials)](https://finance.yahoo.com/quote/[AAPL](https://finance.yahoo.com/quote/AAPL/financials)/financials)             |         2.97994  |         0.0753885  |      0.0599758   |     3.03992   |     41 |           0.8  |
+|  41 | [[VFH](https://finance.yahoo.com/quote/VFH/financials)](https://finance.yahoo.com/quote/[VFH](https://finance.yahoo.com/quote/VFH/financials)/financials)                 |         2.96918  |        -0.202181   |      0.0677775   |     3.03695   |     42 |           0.8  |
+|  42 | [[ADP](https://finance.yahoo.com/quote/ADP/financials)](https://finance.yahoo.com/quote/[ADP](https://finance.yahoo.com/quote/ADP/financials)/financials)                 |         2.96912  |        -0.158108   |      0.10857     |     3.07769   |     43 |           0.79 |
+|  43 | [[SU](https://finance.yahoo.com/quote/SU/financials)](https://finance.yahoo.com/quote/[SU](https://finance.yahoo.com/quote/SU/financials)/financials)                     |         2.94226  |        -0.166849   |      0.054741    |     2.997     |     44 |           0.79 |
+|  44 | [[QQQ](https://finance.yahoo.com/quote/QQQ/financials)](https://finance.yahoo.com/quote/[QQQ](https://finance.yahoo.com/quote/QQQ/financials)/financials)                 |         2.93595  |        -0.110437   |      0.169059    |     3.10501   |     45 |           0.78 |
+|  45 | [[XLI](https://finance.yahoo.com/quote/XLI/financials)](https://finance.yahoo.com/quote/[XLI](https://finance.yahoo.com/quote/XLI/financials)/financials)                 |         2.92955  |        -0.0603249  |      0.101157    |     3.03071   |     46 |           0.78 |
+|  46 | [[VOX](https://finance.yahoo.com/quote/VOX/financials)](https://finance.yahoo.com/quote/[VOX](https://finance.yahoo.com/quote/VOX/financials)/financials)                 |         2.91432  |        -0.167397   |      0.150716    |     3.06504   |     47 |           0.78 |
+|  47 | [[CEG](https://finance.yahoo.com/quote/CEG/financials)](https://finance.yahoo.com/quote/[CEG](https://finance.yahoo.com/quote/CEG/financials)/financials)                 |         2.89945  |        -0.431517   |      0.381886    |     3.28134   |     48 |           0.77 |
+|  48 | [[C](https://finance.yahoo.com/quote/C/financials)](https://finance.yahoo.com/quote/[C](https://finance.yahoo.com/quote/C/financials)/financials)                         |         2.87158  |        -0.266287   |      0.120983    |     2.99256   |     49 |           0.77 |
+|  49 | [[CMG](https://finance.yahoo.com/quote/CMG/financials)](https://finance.yahoo.com/quote/[CMG](https://finance.yahoo.com/quote/CMG/financials)/financials)                 |         2.84098  |        -0.21966    |      2.03418     |     4.87516   |     50 |           0.76 |
+|  50 | [[AXP](https://finance.yahoo.com/quote/AXP/financials)](https://finance.yahoo.com/quote/[AXP](https://finance.yahoo.com/quote/AXP/financials)/financials)                 |         2.83968  |        -0.0529629  |      0.125898    |     2.96558   |     51 |           0.76 |
+|  51 | [[PSX](https://finance.yahoo.com/quote/PSX/financials)](https://finance.yahoo.com/quote/[PSX](https://finance.yahoo.com/quote/PSX/financials)/financials)                 |         2.79264  |        -0.195034   |      0.220242    |     3.01288   |     52 |           0.75 |
+|  52 | [[GE](https://finance.yahoo.com/quote/GE/financials)](https://finance.yahoo.com/quote/[GE](https://finance.yahoo.com/quote/GE/financials)/financials)                     |         2.75814  |        -0.314142   |      0.152628    |     2.91076   |     53 |           0.75 |
+|  53 | [[PYPL](https://finance.yahoo.com/quote/PYPL/financials)](https://finance.yahoo.com/quote/[PYPL](https://finance.yahoo.com/quote/PYPL/financials)/financials)             |         2.75251  |        -0.281408   |      0.592708    |     3.34522   |     54 |           0.74 |
+|  54 | [[ECL](https://finance.yahoo.com/quote/ECL/financials)](https://finance.yahoo.com/quote/[ECL](https://finance.yahoo.com/quote/ECL/financials)/financials)                 |         2.73645  |        -0.243158   |     -0.0411252   |     2.69532   |     55 |           0.74 |
+|  55 | [[JPM](https://finance.yahoo.com/quote/JPM/financials)](https://finance.yahoo.com/quote/[JPM](https://finance.yahoo.com/quote/JPM/financials)/financials)                 |         2.72474  |        -0.241958   |      0.177046    |     2.90178   |     56 |           0.73 |
+|  56 | [[TER](https://finance.yahoo.com/quote/TER/financials)](https://finance.yahoo.com/quote/[TER](https://finance.yahoo.com/quote/TER/financials)/financials)                 |         2.65467  |        -0.1074     |      0.0754286   |     2.7301    |     57 |           0.73 |
+|  57 | [[ROP](https://finance.yahoo.com/quote/ROP/financials)](https://finance.yahoo.com/quote/[ROP](https://finance.yahoo.com/quote/ROP/financials)/financials)                 |         2.64884  |        -0.26162    |      0.206588    |     2.85543   |     58 |           0.72 |
+|  58 | [[ULVR.L](https://finance.yahoo.com/quote/ULVR.L/financials)](https://finance.yahoo.com/quote/[ULVR.L](https://finance.yahoo.com/quote/ULVR.L/financials)/financials)     |         2.59253  |        -0.122535   |      2.163       |     4.75553   |     59 |           0.72 |
+|  59 | [[SPY](https://finance.yahoo.com/quote/SPY/financials)](https://finance.yahoo.com/quote/[SPY](https://finance.yahoo.com/quote/SPY/financials)/financials)                 |         2.57108  |        -0.158745   |      0.194327    |     2.7654    |     60 |           0.71 |
+|  60 | [[ALL](https://finance.yahoo.com/quote/ALL/financials)](https://finance.yahoo.com/quote/[ALL](https://finance.yahoo.com/quote/ALL/financials)/financials)                 |         2.55004  |        -0.3064     |      0.110718    |     2.66075   |     61 |           0.71 |
+|  61 | [[HD](https://finance.yahoo.com/quote/HD/financials)](https://finance.yahoo.com/quote/[HD](https://finance.yahoo.com/quote/HD/financials)/financials)                     |         2.54287  |        -0.15701    |      0.238       |     2.78087   |     62 |           0.7  |
+|  62 | [[NOW](https://finance.yahoo.com/quote/NOW/financials)](https://finance.yahoo.com/quote/[NOW](https://finance.yahoo.com/quote/NOW/financials)/financials)                 |         2.51834  |        -0.219727   |      0.202521    |     2.72086   |     63 |           0.7  |
+|  63 | [[CDNS](https://finance.yahoo.com/quote/CDNS/financials)](https://finance.yahoo.com/quote/[CDNS](https://finance.yahoo.com/quote/CDNS/financials)/financials)             |         2.51693  |        -0.0882687  |      0.0727342   |     2.58966   |     64 |           0.69 |
+|  64 | [[QCOM](https://finance.yahoo.com/quote/QCOM/financials)](https://finance.yahoo.com/quote/[QCOM](https://finance.yahoo.com/quote/QCOM/financials)/financials)             |         2.5076   |        -0.154674   |      0.138351    |     2.64595   |     65 |           0.69 |
+|  65 | [[ZBH](https://finance.yahoo.com/quote/ZBH/financials)](https://finance.yahoo.com/quote/[ZBH](https://finance.yahoo.com/quote/ZBH/financials)/financials)                 |         2.49101  |        -0.27029    |      0.0765008   |     2.56751   |     66 |           0.68 |
+|  66 | [[TJX](https://finance.yahoo.com/quote/TJX/financials)](https://finance.yahoo.com/quote/[TJX](https://finance.yahoo.com/quote/TJX/financials)/financials)                 |         2.47437  |        -0.182815   |      0.0193507   |     2.49372   |     67 |           0.68 |
+|  67 | [[V](https://finance.yahoo.com/quote/V/financials)](https://finance.yahoo.com/quote/[V](https://finance.yahoo.com/quote/V/financials)/financials)                         |         2.45493  |        -0.321893   |      0.100352    |     2.55528   |     68 |           0.67 |
+|  68 | [[WDAY](https://finance.yahoo.com/quote/WDAY/financials)](https://finance.yahoo.com/quote/[WDAY](https://finance.yahoo.com/quote/WDAY/financials)/financials)             |         2.45002  |        -0.22665    |      0.467219    |     2.91724   |     69 |           0.67 |
+|  69 | [[RS](https://finance.yahoo.com/quote/RS/financials)](https://finance.yahoo.com/quote/[RS](https://finance.yahoo.com/quote/RS/financials)/financials)                     |         2.44902  |        -0.0869236  |      0.155214    |     2.60424   |     70 |           0.67 |
+|  70 | [[OXY](https://finance.yahoo.com/quote/OXY/financials)](https://finance.yahoo.com/quote/[OXY](https://finance.yahoo.com/quote/OXY/financials)/financials)                 |         2.43885  |        -0.199891   |      0.115146    |     2.554     |     71 |           0.66 |
+|  71 | [[XLP](https://finance.yahoo.com/quote/XLP/financials)](https://finance.yahoo.com/quote/[XLP](https://finance.yahoo.com/quote/XLP/financials)/financials)                 |         2.42934  |        -0.310316   |      0.0203886   |     2.44973   |     72 |           0.66 |
+|  72 | [[CMCSA](https://finance.yahoo.com/quote/CMCSA/financials)](https://finance.yahoo.com/quote/[CMCSA](https://finance.yahoo.com/quote/CMCSA/financials)/financials)         |         2.4114   |        -0.355069   |      0.0203166   |     2.43172   |     73 |           0.65 |
+|  73 | [[LOW](https://finance.yahoo.com/quote/LOW/financials)](https://finance.yahoo.com/quote/[LOW](https://finance.yahoo.com/quote/LOW/financials)/financials)                 |         2.40781  |        -0.276802   |      0.284794    |     2.6926    |     74 |           0.65 |
+|  74 | [[PNC](https://finance.yahoo.com/quote/PNC/financials)](https://finance.yahoo.com/quote/[PNC](https://finance.yahoo.com/quote/PNC/financials)/financials)                 |         2.39375  |        -0.3541     |     -0.296425    |     2.09732   |     75 |           0.64 |
+|  75 | [[ROG](https://finance.yahoo.com/quote/ROG/financials)](https://finance.yahoo.com/quote/[ROG](https://finance.yahoo.com/quote/ROG/financials)/financials)                 |         2.34701  |        -0.175534   |      0.107099    |     2.45411   |     76 |           0.64 |
+|  76 | [[TROW](https://finance.yahoo.com/quote/TROW/financials)](https://finance.yahoo.com/quote/[TROW](https://finance.yahoo.com/quote/TROW/financials)/financials)             |         2.33316  |        -0.178871   |      0.0914386   |     2.42459   |     77 |           0.63 |
+|  77 | [[MRK](https://finance.yahoo.com/quote/MRK/financials)](https://finance.yahoo.com/quote/[MRK](https://finance.yahoo.com/quote/MRK/financials)/financials)                 |         2.26697  |        -0.218314   |      0.00956971  |     2.27654   |     78 |           0.63 |
+|  78 | [[ADSK](https://finance.yahoo.com/quote/ADSK/financials)](https://finance.yahoo.com/quote/[ADSK](https://finance.yahoo.com/quote/ADSK/financials)/financials)             |         2.26369  |        -0.108823   |      0.0990426   |     2.36273   |     79 |           0.62 |
+|  79 | [[CAT](https://finance.yahoo.com/quote/CAT/financials)](https://finance.yahoo.com/quote/[CAT](https://finance.yahoo.com/quote/CAT/financials)/financials)                 |         2.25066  |        -0.208479   |      0.314244    |     2.5649    |     80 |           0.62 |
+|  80 | [[PDD](https://finance.yahoo.com/quote/PDD/financials)](https://finance.yahoo.com/quote/[PDD](https://finance.yahoo.com/quote/PDD/financials)/financials)                 |         2.23659  |         0.00587575 |     -0.0369563   |     2.19963   |     81 |           0.61 |
+|  81 | [[XOM](https://finance.yahoo.com/quote/XOM/financials)](https://finance.yahoo.com/quote/[XOM](https://finance.yahoo.com/quote/XOM/financials)/financials)                 |         2.23102  |        -0.258785   |      0.278205    |     2.50923   |     82 |           0.61 |
+|  82 | [[WSM](https://finance.yahoo.com/quote/WSM/financials)](https://finance.yahoo.com/quote/[WSM](https://finance.yahoo.com/quote/WSM/financials)/financials)                 |         2.21256  |        -0.278951   |      1.12012     |     3.33268   |     83 |           0.6  |
+|  83 | [[USB](https://finance.yahoo.com/quote/USB/financials)](https://finance.yahoo.com/quote/[USB](https://finance.yahoo.com/quote/USB/financials)/financials)                 |         2.20609  |        -0.2281     |      0.0118162   |     2.2179    |     84 |           0.6  |
+|  84 | [[WM](https://finance.yahoo.com/quote/WM/financials)](https://finance.yahoo.com/quote/[WM](https://finance.yahoo.com/quote/WM/financials)/financials)                     |         2.20318  |        -0.250317   |      0.0898796   |     2.29306   |     85 |           0.59 |
+|  85 | [[UPS](https://finance.yahoo.com/quote/UPS/financials)](https://finance.yahoo.com/quote/[UPS](https://finance.yahoo.com/quote/UPS/financials)/financials)                 |         2.1742   |        -0.350165   |      0.118488    |     2.29269   |     86 |           0.59 |
+|  86 | [[GOOG](https://finance.yahoo.com/quote/GOOG/financials)](https://finance.yahoo.com/quote/[GOOG](https://finance.yahoo.com/quote/GOOG/financials)/financials)             |         2.16419  |        -0.269038   |      0.216188    |     2.38038   |     87 |           0.58 |
+|  87 | [[COIN](https://finance.yahoo.com/quote/COIN/financials)](https://finance.yahoo.com/quote/[COIN](https://finance.yahoo.com/quote/COIN/financials)/financials)             |         2.16114  |        -0.409036   |      1.34862     |     3.50976   |     88 |           0.58 |
+|  88 | [[SNPS](https://finance.yahoo.com/quote/SNPS/financials)](https://finance.yahoo.com/quote/[SNPS](https://finance.yahoo.com/quote/SNPS/financials)/financials)             |         2.15598  |        -0.230827   |      0.0802571   |     2.23624   |     89 |           0.57 |
+|  89 | [[KO](https://finance.yahoo.com/quote/KO/financials)](https://finance.yahoo.com/quote/[KO](https://finance.yahoo.com/quote/KO/financials)/financials)                     |         2.15549  |        -0.21522    |      0.0259208   |     2.18142   |     90 |           0.57 |
+|  90 | [[WFC](https://finance.yahoo.com/quote/WFC/financials)](https://finance.yahoo.com/quote/[WFC](https://finance.yahoo.com/quote/WFC/financials)/financials)                 |         2.13818  |        -0.429012   |      0.0861117   |     2.2243    |     91 |           0.56 |
+|  91 | [[COP](https://finance.yahoo.com/quote/COP/financials)](https://finance.yahoo.com/quote/[COP](https://finance.yahoo.com/quote/COP/financials)/financials)                 |         2.13797  |        -0.251668   |      0.259402    |     2.39737   |     92 |           0.56 |
+|  92 | [[SHW](https://finance.yahoo.com/quote/SHW/financials)](https://finance.yahoo.com/quote/[SHW](https://finance.yahoo.com/quote/SHW/financials)/financials)                 |         2.12667  |        -0.301086   |      0.0982542   |     2.22493   |     93 |           0.56 |
+|  93 | [[SAP](https://finance.yahoo.com/quote/SAP/financials)](https://finance.yahoo.com/quote/[SAP](https://finance.yahoo.com/quote/SAP/financials)/financials)                 |         2.0857   |        -0.232707   |      0.118351    |     2.20405   |     94 |           0.55 |
+|  94 | [[DIS](https://finance.yahoo.com/quote/DIS/financials)](https://finance.yahoo.com/quote/[DIS](https://finance.yahoo.com/quote/DIS/financials)/financials)                 |         2.04422  |        -0.280629   |      0.184927    |     2.22915   |     95 |           0.55 |
+|  95 | [[PXD](https://finance.yahoo.com/quote/PXD/financials)](https://finance.yahoo.com/quote/[PXD](https://finance.yahoo.com/quote/PXD/financials)/financials)                 |         2.03236  |        -0.247526   |      0.229305    |     2.26167   |     96 |           0.54 |
+|  96 | [[MDLZ](https://finance.yahoo.com/quote/MDLZ/financials)](https://finance.yahoo.com/quote/[MDLZ](https://finance.yahoo.com/quote/MDLZ/financials)/financials)             |         2.02505  |        -0.262571   |      0.0142636   |     2.03931   |     97 |           0.54 |
+|  97 | [[IYK](https://finance.yahoo.com/quote/IYK/financials)](https://finance.yahoo.com/quote/[IYK](https://finance.yahoo.com/quote/IYK/financials)/financials)                 |         1.97545  |        -0.382422   |      0.0327313   |     2.00818   |     98 |           0.53 |
+|  98 | [[PFE](https://finance.yahoo.com/quote/PFE/financials)](https://finance.yahoo.com/quote/[PFE](https://finance.yahoo.com/quote/PFE/financials)/financials)                 |         1.94465  |        -0.254558   |      0.0357558   |     1.9804    |     99 |           0.53 |
+|  99 | [[ORCL](https://finance.yahoo.com/quote/ORCL/financials)](https://finance.yahoo.com/quote/[ORCL](https://finance.yahoo.com/quote/ORCL/financials)/financials)             |         1.94406  |        -0.204002   |      0.423073    |     2.36713   |    100 |           0.52 |
+| 100 | [[PG](https://finance.yahoo.com/quote/PG/financials)](https://finance.yahoo.com/quote/[PG](https://finance.yahoo.com/quote/PG/financials)/financials)                     |         1.93941  |        -0.327949   |      0.00142502  |     1.94084   |    101 |           0.52 |
+| 101 | [[A](https://finance.yahoo.com/quote/A/financials)](https://finance.yahoo.com/quote/[A](https://finance.yahoo.com/quote/A/financials)/financials)                         |         1.93711  |        -0.313942   |     -0.0909291   |     1.84618   |    102 |           0.51 |
+| 102 | [[EXPE](https://finance.yahoo.com/quote/EXPE/financials)](https://finance.yahoo.com/quote/[EXPE](https://finance.yahoo.com/quote/EXPE/financials)/financials)             |         1.92063  |        -0.20628    |      0.00589448  |     1.92653   |    103 |           0.51 |
+| 103 | [[BAC](https://finance.yahoo.com/quote/BAC/financials)](https://finance.yahoo.com/quote/[BAC](https://finance.yahoo.com/quote/BAC/financials)/financials)                 |         1.89718  |         0.133566   |      0.0327439   |     1.92992   |    104 |           0.5  |
+| 104 | [[MPC](https://finance.yahoo.com/quote/MPC/financials)](https://finance.yahoo.com/quote/[MPC](https://finance.yahoo.com/quote/MPC/financials)/financials)                 |         1.89085  |        -0.345607   |     -0.29655     |     1.5943    |    105 |           0.5  |
+| 105 | [[NEE](https://finance.yahoo.com/quote/NEE/financials)](https://finance.yahoo.com/quote/[NEE](https://finance.yahoo.com/quote/NEE/financials)/financials)                 |         1.88281  |        -0.0694892  |      0.0950662   |     1.97788   |    106 |           0.49 |
+| 106 | [[BK](https://finance.yahoo.com/quote/BK/financials)](https://finance.yahoo.com/quote/[BK](https://finance.yahoo.com/quote/BK/financials)/financials)                     |         1.87797  |        -0.0716583  |      0.00176598  |     1.87974   |    107 |           0.49 |
+| 107 | [[MU](https://finance.yahoo.com/quote/MU/financials)](https://finance.yahoo.com/quote/[MU](https://finance.yahoo.com/quote/MU/financials)/financials)                     |         1.87671  |        -0.385885   |      0.0971863   |     1.97389   |    108 |           0.48 |
+| 108 | [[LMT](https://finance.yahoo.com/quote/LMT/financials)](https://finance.yahoo.com/quote/[LMT](https://finance.yahoo.com/quote/LMT/financials)/financials)                 |         1.87642  |        -0.400452   |     -0.0212341   |     1.85519   |    109 |           0.48 |
+| 109 | [[CPB](https://finance.yahoo.com/quote/CPB/financials)](https://finance.yahoo.com/quote/[CPB](https://finance.yahoo.com/quote/CPB/financials)/financials)                 |         1.87638  |        -0.319132   |     -0.00909662  |     1.86728   |    110 |           0.47 |
+| 110 | [[IFF](https://finance.yahoo.com/quote/IFF/financials)](https://finance.yahoo.com/quote/[IFF](https://finance.yahoo.com/quote/IFF/financials)/financials)                 |         1.83322  |        -0.377983   |      0.297171    |     2.13039   |    111 |           0.47 |
+| 111 | [[FDX](https://finance.yahoo.com/quote/FDX/financials)](https://finance.yahoo.com/quote/[FDX](https://finance.yahoo.com/quote/FDX/financials)/financials)                 |         1.73074  |        -0.545716   |      0.477835    |     2.20858   |    112 |           0.46 |
+| 112 | [[MMM](https://finance.yahoo.com/quote/MMM/financials)](https://finance.yahoo.com/quote/[MMM](https://finance.yahoo.com/quote/MMM/financials)/financials)                 |         1.72966  |        -0.374923   |      0.189915    |     1.91957   |    113 |           0.46 |
+| 113 | [[SCHW](https://finance.yahoo.com/quote/SCHW/financials)](https://finance.yahoo.com/quote/[SCHW](https://finance.yahoo.com/quote/SCHW/financials)/financials)             |         1.71717  |        -0.298096   |      0.0489199   |     1.76609   |    114 |           0.45 |
+| 114 | [[VLO](https://finance.yahoo.com/quote/VLO/financials)](https://finance.yahoo.com/quote/[VLO](https://finance.yahoo.com/quote/VLO/financials)/financials)                 |         1.61467  |        -0.437078   |      0.235396    |     1.85006   |    115 |           0.45 |
+| 115 | [[PEP](https://finance.yahoo.com/quote/PEP/financials)](https://finance.yahoo.com/quote/[PEP](https://finance.yahoo.com/quote/PEP/financials)/financials)                 |         1.57621  |        -0.0131346  |      0.177663    |     1.75387   |    116 |           0.44 |
+| 116 | [[ISRG](https://finance.yahoo.com/quote/ISRG/financials)](https://finance.yahoo.com/quote/[ISRG](https://finance.yahoo.com/quote/ISRG/financials)/financials)             |         1.52622  |        -0.216321   |     -0.0147879   |     1.51143   |    117 |           0.44 |
+| 117 | [[XLC](https://finance.yahoo.com/quote/XLC/financials)](https://finance.yahoo.com/quote/[XLC](https://finance.yahoo.com/quote/XLC/financials)/financials)                 |         1.49285  |        -0.633473   |      0.102731    |     1.59558   |    118 |           0.44 |
+| 118 | [[MELI](https://finance.yahoo.com/quote/MELI/financials)](https://finance.yahoo.com/quote/[MELI](https://finance.yahoo.com/quote/MELI/financials)/financials)             |         1.4802   |        -0.0990679  |      0.0315843   |     1.51179   |    119 |           0.43 |
+| 119 | [[BKNG](https://finance.yahoo.com/quote/BKNG/financials)](https://finance.yahoo.com/quote/[BKNG](https://finance.yahoo.com/quote/BKNG/financials)/financials)             |         1.46982  |        -0.288668   |      0.860057    |     2.32988   |    120 |           0.43 |
+| 120 | [[WMT](https://finance.yahoo.com/quote/WMT/financials)](https://finance.yahoo.com/quote/[WMT](https://finance.yahoo.com/quote/WMT/financials)/financials)                 |         1.42134  |        -0.523051   |      0.0114992   |     1.43284   |    121 |           0.42 |
+| 121 | [[OKE](https://finance.yahoo.com/quote/OKE/financials)](https://finance.yahoo.com/quote/[OKE](https://finance.yahoo.com/quote/OKE/financials)/financials)                 |         1.39872  |        -0.480558   |      0.0382299   |     1.43695   |    122 |           0.42 |
+| 122 | [[RTX](https://finance.yahoo.com/quote/RTX/financials)](https://finance.yahoo.com/quote/[RTX](https://finance.yahoo.com/quote/RTX/financials)/financials)                 |         1.32218  |        -0.40107    |      0.118981    |     1.44116   |    123 |           0.41 |
+| 123 | [[HSBC](https://finance.yahoo.com/quote/HSBC/financials)](https://finance.yahoo.com/quote/[HSBC](https://finance.yahoo.com/quote/HSBC/financials)/financials)             |         1.30266  |        -0.230098   |      0.051079    |     1.35374   |    124 |           0.41 |
+| 124 | [[T](https://finance.yahoo.com/quote/T/financials)](https://finance.yahoo.com/quote/[T](https://finance.yahoo.com/quote/T/financials)/financials)                         |         1.25702  |        -0.505801   |     -0.000342562 |     1.25668   |    125 |           0.4  |
+| 125 | [[XLE](https://finance.yahoo.com/quote/XLE/financials)](https://finance.yahoo.com/quote/[XLE](https://finance.yahoo.com/quote/XLE/financials)/financials)                 |         1.22956  |        -0.43656    |      0.130983    |     1.36055   |    126 |           0.4  |
+| 126 | [[LIN](https://finance.yahoo.com/quote/LIN/financials)](https://finance.yahoo.com/quote/[LIN](https://finance.yahoo.com/quote/LIN/financials)/financials)                 |         1.10184  |        -0.4358     |      0.0946141   |     1.19646   |    127 |           0.39 |
+| 127 | [[AZN](https://finance.yahoo.com/quote/AZN/financials)](https://finance.yahoo.com/quote/[AZN](https://finance.yahoo.com/quote/AZN/financials)/financials)                 |         1.07221  |        -0.362443   |     -0.027612    |     1.0446    |    128 |           0.39 |
+| 128 | [[MO](https://finance.yahoo.com/quote/MO/financials)](https://finance.yahoo.com/quote/[MO](https://finance.yahoo.com/quote/MO/financials)/financials)                     |         1.00023  |        -0.618488   |      0.136092    |     1.13632   |    129 |           0.38 |
+| 129 | [[BHP](https://finance.yahoo.com/quote/BHP/financials)](https://finance.yahoo.com/quote/[BHP](https://finance.yahoo.com/quote/BHP/financials)/financials)                 |         0.872043 |        -0.285784   |     -0.0460104   |     0.826033  |    130 |           0.38 |
+| 130 | [[XLB](https://finance.yahoo.com/quote/XLB/financials)](https://finance.yahoo.com/quote/[XLB](https://finance.yahoo.com/quote/XLB/financials)/financials)                 |         0.841164 |        -0.501602   |      0.0934937   |     0.934658  |    131 |           0.37 |
+| 131 | [[NESN.SW](https://finance.yahoo.com/quote/NESN.SW/financials)](https://finance.yahoo.com/quote/[NESN.SW](https://finance.yahoo.com/quote/NESN.SW/financials)/financials) |         0.791017 |        -0.424185   |     -0.0157245   |     0.775293  |    132 |           0.37 |
+| 132 | [[EOG](https://finance.yahoo.com/quote/EOG/financials)](https://finance.yahoo.com/quote/[EOG](https://finance.yahoo.com/quote/EOG/financials)/financials)                 |         0.78578  |        -0.565636   |      0.143317    |     0.929097  |    133 |           0.36 |
+| 133 | [[UNH](https://finance.yahoo.com/quote/UNH/financials)](https://finance.yahoo.com/quote/[UNH](https://finance.yahoo.com/quote/UNH/financials)/financials)                 |         0.73825  |        -0.391957   |      0.156133    |     0.894383  |    134 |           0.36 |
+| 134 | [[CVX](https://finance.yahoo.com/quote/CVX/financials)](https://finance.yahoo.com/quote/[CVX](https://finance.yahoo.com/quote/CVX/financials)/financials)                 |         0.670861 |        -0.506001   |      0.0895665   |     0.760427  |    135 |           0.35 |
+| 135 | [[SHEL](https://finance.yahoo.com/quote/SHEL/financials)](https://finance.yahoo.com/quote/[SHEL](https://finance.yahoo.com/quote/SHEL/financials)/financials)             |         0.643749 |        -0.378221   |      0.0922823   |     0.736032  |    136 |           0.35 |
+| 136 | [[NUE](https://finance.yahoo.com/quote/NUE/financials)](https://finance.yahoo.com/quote/[NUE](https://finance.yahoo.com/quote/NUE/financials)/financials)                 |         0.551154 |        -0.195172   |      0.0862155   |     0.637369  |    137 |           0.34 |
+| 137 | [[BP](https://finance.yahoo.com/quote/BP/financials)](https://finance.yahoo.com/quote/[BP](https://finance.yahoo.com/quote/BP/financials)/financials)                     |         0.376621 |        -0.540511   |      0.00468562  |     0.381307  |    138 |           0.34 |
+| 138 | [[KMI](https://finance.yahoo.com/quote/KMI/financials)](https://finance.yahoo.com/quote/[KMI](https://finance.yahoo.com/quote/KMI/financials)/financials)                 |         0.288683 |        -0.481206   |      0.00482871  |     0.293511  |    139 |           0.33 |
+| 139 | [[VZ](https://finance.yahoo.com/quote/VZ/financials)](https://finance.yahoo.com/quote/[VZ](https://finance.yahoo.com/quote/VZ/financials)/financials)                     |         0.114044 |        -0.556214   |     -0.00571997  |     0.108324  |    140 |           0.33 |
+| 140 | [[XLU](https://finance.yahoo.com/quote/XLU/financials)](https://finance.yahoo.com/quote/[XLU](https://finance.yahoo.com/quote/XLU/financials)/financials)                 |         0.10901  |        -0.684183   |     -0.00299764  |     0.106013  |    141 |           0.33 |
+| 141 | [[VDE](https://finance.yahoo.com/quote/VDE/financials)](https://finance.yahoo.com/quote/[VDE](https://finance.yahoo.com/quote/VDE/financials)/financials)                 |        -0.207762 |        -0.849459   |      0.226883    |     0.0191202 |    142 |           0.32 |
+| 142 | [[SMH](https://finance.yahoo.com/quote/SMH/financials)](https://finance.yahoo.com/quote/[SMH](https://finance.yahoo.com/quote/SMH/financials)/financials)                 |        -0.234655 |         0.384928   |      0.0943284   |    -0.140326  |    143 |           0.32 |
+| 143 | [[SOXX](https://finance.yahoo.com/quote/SOXX/financials)](https://finance.yahoo.com/quote/[SOXX](https://finance.yahoo.com/quote/SOXX/financials)/financials)             |        -0.249281 |         0.449514   |     -0.0276099   |    -0.276891  |    144 |           0.31 |
+| 144 | [[LULU](https://finance.yahoo.com/quote/LULU/financials)](https://finance.yahoo.com/quote/[LULU](https://finance.yahoo.com/quote/LULU/financials)/financials)             |        -0.347966 |         0.432991   |     -0.0550445   |    -0.403011  |    145 |           0.31 |
+| 145 | [[ACN](https://finance.yahoo.com/quote/ACN/financials)](https://finance.yahoo.com/quote/[ACN](https://finance.yahoo.com/quote/ACN/financials)/financials)                 |        -0.375069 |         0.256072   |     -0.091481    |    -0.46655   |    146 |           0.3  |
+| 146 | [[ADI](https://finance.yahoo.com/quote/ADI/financials)](https://finance.yahoo.com/quote/[ADI](https://finance.yahoo.com/quote/ADI/financials)/financials)                 |        -0.49571  |         0.552765   |      0.12275     |    -0.37296   |    147 |           0.3  |
+| 147 | [[PLD](https://finance.yahoo.com/quote/PLD/financials)](https://finance.yahoo.com/quote/[PLD](https://finance.yahoo.com/quote/PLD/financials)/financials)                 |        -0.504623 |         0.528047   |     -0.00251898  |    -0.507142  |    148 |           0.29 |
+| 148 | [[ABT](https://finance.yahoo.com/quote/ABT/financials)](https://finance.yahoo.com/quote/[ABT](https://finance.yahoo.com/quote/ABT/financials)/financials)                 |        -0.588667 |         0.47088    |     -0.110264    |    -0.698931  |    149 |           0.29 |
+| 149 | [[KEYS](https://finance.yahoo.com/quote/KEYS/financials)](https://finance.yahoo.com/quote/[KEYS](https://finance.yahoo.com/quote/KEYS/financials)/financials)             |        -0.610604 |         0.711371   |     -0.047424    |    -0.658028  |    150 |           0.28 |
+| 150 | [[TXN](https://finance.yahoo.com/quote/TXN/financials)](https://finance.yahoo.com/quote/[TXN](https://finance.yahoo.com/quote/TXN/financials)/financials)                 |        -0.734537 |         0.444171   |      0.0147263   |    -0.719811  |    151 |           0.28 |
+| 151 | [[VNQ](https://finance.yahoo.com/quote/VNQ/financials)](https://finance.yahoo.com/quote/[VNQ](https://finance.yahoo.com/quote/VNQ/financials)/financials)                 |        -0.784983 |         0.385023   |     -0.018551    |    -0.803534  |    152 |           0.27 |
+| 152 | [[IWM](https://finance.yahoo.com/quote/IWM/financials)](https://finance.yahoo.com/quote/[IWM](https://finance.yahoo.com/quote/IWM/financials)/financials)                 |        -0.817892 |         0.383281   |     -0.0210811   |    -0.838973  |    153 |           0.27 |
+| 153 | [[SIE.DE](https://finance.yahoo.com/quote/SIE.DE/financials)](https://finance.yahoo.com/quote/[SIE.DE](https://finance.yahoo.com/quote/SIE.DE/financials)/financials)     |        -0.937553 |         0.487474   |     -0.0586468   |    -0.9962    |    154 |           0.26 |
+| 154 | [[SYK](https://finance.yahoo.com/quote/SYK/financials)](https://finance.yahoo.com/quote/[SYK](https://finance.yahoo.com/quote/SYK/financials)/financials)                 |        -0.944384 |         0.474271   |     -0.0464545   |    -0.990838  |    155 |           0.26 |
+| 155 | [[MRVL](https://finance.yahoo.com/quote/MRVL/financials)](https://finance.yahoo.com/quote/[MRVL](https://finance.yahoo.com/quote/MRVL/financials)/financials)             |        -1.02527  |         0.312912   |     -0.0660677   |    -1.09134   |    156 |           0.25 |
+| 156 | [[EL](https://finance.yahoo.com/quote/EL/financials)](https://finance.yahoo.com/quote/[EL](https://finance.yahoo.com/quote/EL/financials)/financials)                     |        -1.03168  |         0.193425   |      0.065356    |    -0.966321  |    157 |           0.25 |
+| 157 | [[CIBR](https://finance.yahoo.com/quote/CIBR/financials)](https://finance.yahoo.com/quote/[CIBR](https://finance.yahoo.com/quote/CIBR/financials)/financials)             |        -1.03526  |         0.515875   |     -0.00365203  |    -1.03891   |    158 |           0.24 |
+| 158 | [[KLAC](https://finance.yahoo.com/quote/KLAC/financials)](https://finance.yahoo.com/quote/[KLAC](https://finance.yahoo.com/quote/KLAC/financials)/financials)             |        -1.11358  |         0.324661   |      0.114933    |    -0.998643  |    159 |           0.24 |
+| 159 | [[EFX](https://finance.yahoo.com/quote/EFX/financials)](https://finance.yahoo.com/quote/[EFX](https://finance.yahoo.com/quote/EFX/financials)/financials)                 |        -1.13819  |         0.513556   |     -0.0723373   |    -1.21053   |    160 |           0.23 |
+| 160 | [[FTNT](https://finance.yahoo.com/quote/FTNT/financials)](https://finance.yahoo.com/quote/[FTNT](https://finance.yahoo.com/quote/FTNT/financials)/financials)             |        -1.19923  |         0.352905   |     -0.0293928   |    -1.22862   |    161 |           0.23 |
+| 161 | [[ASML](https://finance.yahoo.com/quote/ASML/financials)](https://finance.yahoo.com/quote/[ASML](https://finance.yahoo.com/quote/ASML/financials)/financials)             |        -1.26511  |         0.325809   |      0.00893928  |    -1.25617   |    162 |           0.22 |
+| 162 | [[AVGO](https://finance.yahoo.com/quote/AVGO/financials)](https://finance.yahoo.com/quote/[AVGO](https://finance.yahoo.com/quote/AVGO/financials)/financials)             |        -1.33948  |         0.137322   |     -0.193829    |    -1.5333    |    163 |           0.22 |
+| 163 | [[ICE](https://finance.yahoo.com/quote/ICE/financials)](https://finance.yahoo.com/quote/[ICE](https://finance.yahoo.com/quote/ICE/financials)/financials)                 |        -1.37278  |         0.3078     |     -0.00180298  |    -1.37458   |    164 |           0.22 |
+| 164 | [[TMO](https://finance.yahoo.com/quote/TMO/financials)](https://finance.yahoo.com/quote/[TMO](https://finance.yahoo.com/quote/TMO/financials)/financials)                 |        -1.38585  |         0.248843   |     -0.0740023   |    -1.45986   |    165 |           0.21 |
+| 165 | [[COST](https://finance.yahoo.com/quote/COST/financials)](https://finance.yahoo.com/quote/[COST](https://finance.yahoo.com/quote/COST/financials)/financials)             |        -1.40793  |         0.428869   |      0.25648     |    -1.15145   |    166 |           0.21 |
+| 166 | [[NKE](https://finance.yahoo.com/quote/NKE/financials)](https://finance.yahoo.com/quote/[NKE](https://finance.yahoo.com/quote/NKE/financials)/financials)                 |        -1.43206  |         0.468356   |     -0.0308066   |    -1.46287   |    167 |           0.2  |
+| 167 | [[TSM](https://finance.yahoo.com/quote/TSM/financials)](https://finance.yahoo.com/quote/[TSM](https://finance.yahoo.com/quote/TSM/financials)/financials)                 |        -1.4533   |         0.205971   |      0.0180503   |    -1.43525   |    168 |           0.2  |
+| 168 | [[AMGN](https://finance.yahoo.com/quote/AMGN/financials)](https://finance.yahoo.com/quote/[AMGN](https://finance.yahoo.com/quote/AMGN/financials)/financials)             |        -1.49395  |         0.298565   |      0.0453971   |    -1.44855   |    169 |           0.19 |
+| 169 | [[WAT](https://finance.yahoo.com/quote/WAT/financials)](https://finance.yahoo.com/quote/[WAT](https://finance.yahoo.com/quote/WAT/financials)/financials)                 |        -1.50519  |         0.246177   |      0.10637     |    -1.39882   |    170 |           0.19 |
+| 170 | [[BMY](https://finance.yahoo.com/quote/BMY/financials)](https://finance.yahoo.com/quote/[BMY](https://finance.yahoo.com/quote/BMY/financials)/financials)                 |        -1.56446  |         0.436007   |     -0.0156239   |    -1.58008   |    171 |           0.18 |
+| 171 | [[IBM](https://finance.yahoo.com/quote/IBM/financials)](https://finance.yahoo.com/quote/[IBM](https://finance.yahoo.com/quote/IBM/financials)/financials)                 |        -1.60049  |         0.118959   |      0.124706    |    -1.47579   |    172 |           0.18 |
+| 172 | [[AMD](https://finance.yahoo.com/quote/AMD/financials)](https://finance.yahoo.com/quote/[AMD](https://finance.yahoo.com/quote/AMD/financials)/financials)                 |        -1.61787  |         0.234798   |     -0.122985    |    -1.74085   |    173 |           0.17 |
+| 173 | [[BLK](https://finance.yahoo.com/quote/BLK/financials)](https://finance.yahoo.com/quote/[BLK](https://finance.yahoo.com/quote/BLK/financials)/financials)                 |        -1.63359  |         0.213859   |     -0.00176122  |    -1.63536   |    174 |           0.17 |
+| 174 | [[MCHP](https://finance.yahoo.com/quote/MCHP/financials)](https://finance.yahoo.com/quote/[MCHP](https://finance.yahoo.com/quote/MCHP/financials)/financials)             |        -1.67392  |         0.254738   |      0.0311087   |    -1.64281   |    175 |           0.16 |
+| 175 | [[JBL](https://finance.yahoo.com/quote/JBL/financials)](https://finance.yahoo.com/quote/[JBL](https://finance.yahoo.com/quote/JBL/financials)/financials)                 |        -1.71411  |         0.22036    |     -0.239533    |    -1.95364   |    176 |           0.16 |
+| 176 | [[INTC](https://finance.yahoo.com/quote/INTC/financials)](https://finance.yahoo.com/quote/[INTC](https://finance.yahoo.com/quote/INTC/financials)/financials)             |        -1.72425  |         0.215786   |     -0.0544929   |    -1.77875   |    177 |           0.15 |
+| 177 | [[JNJ](https://finance.yahoo.com/quote/JNJ/financials)](https://finance.yahoo.com/quote/[JNJ](https://finance.yahoo.com/quote/JNJ/financials)/financials)                 |        -1.73862  |         0.140437   |     -0.12419     |    -1.86281   |    178 |           0.15 |
+| 178 | [[AMAT](https://finance.yahoo.com/quote/AMAT/financials)](https://finance.yahoo.com/quote/[AMAT](https://finance.yahoo.com/quote/AMAT/financials)/financials)             |        -1.76124  |         0.0839504  |     -0.00770953  |    -1.76895   |    179 |           0.14 |
+| 179 | [[PANW](https://finance.yahoo.com/quote/PANW/financials)](https://finance.yahoo.com/quote/[PANW](https://finance.yahoo.com/quote/PANW/financials)/financials)             |        -1.82294  |         0.514356   |      0.125617    |    -1.69732   |    180 |           0.14 |
+| 180 | [[Z](https://finance.yahoo.com/quote/Z/financials)](https://finance.yahoo.com/quote/[Z](https://finance.yahoo.com/quote/Z/financials)/financials)                         |        -1.82702  |         0.168329   |     -0.270765    |    -2.09778   |    181 |           0.13 |
+| 181 | [[LRCX](https://finance.yahoo.com/quote/LRCX/financials)](https://finance.yahoo.com/quote/[LRCX](https://finance.yahoo.com/quote/LRCX/financials)/financials)             |        -1.90595  |         0.132863   |      0.228361    |    -1.67759   |    182 |           0.13 |
+| 182 | [[BIIB](https://finance.yahoo.com/quote/BIIB/financials)](https://finance.yahoo.com/quote/[BIIB](https://finance.yahoo.com/quote/BIIB/financials)/financials)             |        -1.91045  |         0.294112   |     -0.0656979   |    -1.97615   |    183 |           0.12 |
+| 183 | [[TSLA](https://finance.yahoo.com/quote/TSLA/financials)](https://finance.yahoo.com/quote/[TSLA](https://finance.yahoo.com/quote/TSLA/financials)/financials)             |        -1.91525  |         0.31478    |     -0.238295    |    -2.15355   |    184 |           0.12 |
+| 184 | [[MCD](https://finance.yahoo.com/quote/MCD/financials)](https://finance.yahoo.com/quote/[MCD](https://finance.yahoo.com/quote/MCD/financials)/financials)                 |        -1.9205   |         0.201782   |     -0.223236    |    -2.14374   |    185 |           0.11 |
+| 185 | [[MAS](https://finance.yahoo.com/quote/MAS/financials)](https://finance.yahoo.com/quote/[MAS](https://finance.yahoo.com/quote/MAS/financials)/financials)                 |        -2.00075  |         0.260131   |     -0.0012404   |    -2.00199   |    186 |           0.11 |
+| 186 | [[MDB](https://finance.yahoo.com/quote/MDB/financials)](https://finance.yahoo.com/quote/[MDB](https://finance.yahoo.com/quote/MDB/financials)/financials)                 |        -2.11618  |         0.414494   |     -2.26867     |    -4.38485   |    187 |           0.11 |
+| 187 | [[MDT](https://finance.yahoo.com/quote/MDT/financials)](https://finance.yahoo.com/quote/[MDT](https://finance.yahoo.com/quote/MDT/financials)/financials)                 |        -2.14556  |         0.0716635  |     -0.0503899   |    -2.19595   |    188 |           0.1  |
+| 188 | [[HII](https://finance.yahoo.com/quote/HII/financials)](https://finance.yahoo.com/quote/[HII](https://finance.yahoo.com/quote/HII/financials)/financials)                 |        -2.15637  |         0.156098   |     -0.0125371   |    -2.1689    |    189 |           0.1  |
+| 189 | [[SPGI](https://finance.yahoo.com/quote/SPGI/financials)](https://finance.yahoo.com/quote/[SPGI](https://finance.yahoo.com/quote/SPGI/financials)/financials)             |        -2.20126  |         0.382883   |     -0.0757823   |    -2.27704   |    190 |           0.09 |
+| 190 | [[XBI](https://finance.yahoo.com/quote/XBI/financials)](https://finance.yahoo.com/quote/[XBI](https://finance.yahoo.com/quote/XBI/financials)/financials)                 |        -2.20268  |         0.131812   |     -0.0979506   |    -2.30063   |    191 |           0.09 |
+| 191 | [[NOVN.SW](https://finance.yahoo.com/quote/NOVN.SW/financials)](https://finance.yahoo.com/quote/[NOVN.SW](https://finance.yahoo.com/quote/NOVN.SW/financials)/financials) |        -2.24538  |         0.0360591  |     -0.0386303   |    -2.28402   |    192 |           0.08 |
+| 192 | [[REGN](https://finance.yahoo.com/quote/REGN/financials)](https://finance.yahoo.com/quote/[REGN](https://finance.yahoo.com/quote/REGN/financials)/financials)             |        -2.31042  |         0.240057   |      0.0422258   |    -2.26819   |    193 |           0.08 |
+| 193 | [[SMCI](https://finance.yahoo.com/quote/SMCI/financials)](https://finance.yahoo.com/quote/[SMCI](https://finance.yahoo.com/quote/SMCI/financials)/financials)             |        -2.31914  |         0.190403   |     -0.214006    |    -2.53314   |    194 |           0.07 |
+| 194 | [[XLV](https://finance.yahoo.com/quote/XLV/financials)](https://finance.yahoo.com/quote/[XLV](https://finance.yahoo.com/quote/XLV/financials)/financials)                 |        -2.35602  |         0.173985   |     -0.0169125   |    -2.37293   |    195 |           0.07 |
+| 195 | [[TLT](https://finance.yahoo.com/quote/TLT/financials)](https://finance.yahoo.com/quote/[TLT](https://finance.yahoo.com/quote/TLT/financials)/financials)                 |        -2.40763  |         0.172653   |     -0.0402095   |    -2.44784   |    196 |           0.06 |
+| 196 | [[ABBV](https://finance.yahoo.com/quote/ABBV/financials)](https://finance.yahoo.com/quote/[ABBV](https://finance.yahoo.com/quote/ABBV/financials)/financials)             |        -2.44937  |         0.0349304  |     -0.0442603   |    -2.49363   |    197 |           0.06 |
+| 197 | [[CRM](https://finance.yahoo.com/quote/CRM/financials)](https://finance.yahoo.com/quote/[CRM](https://finance.yahoo.com/quote/CRM/financials)/financials)                 |        -2.4637   |         0.281188   |      0.0275887   |    -2.43612   |    198 |           0.05 |
+| 198 | [[VHT](https://finance.yahoo.com/quote/VHT/financials)](https://finance.yahoo.com/quote/[VHT](https://finance.yahoo.com/quote/VHT/financials)/financials)                 |        -2.62017  |         0.196074   |     -0.0416141   |    -2.66179   |    199 |           0.05 |
+| 199 | [[TOELY](https://finance.yahoo.com/quote/TOELY/financials)](https://finance.yahoo.com/quote/[TOELY](https://finance.yahoo.com/quote/TOELY/financials)/financials)         |        -2.62744  |         0.257689   |      0.0369195   |    -2.59052   |    200 |           0.04 |
+| 200 | [[HON](https://finance.yahoo.com/quote/HON/financials)](https://finance.yahoo.com/quote/[HON](https://finance.yahoo.com/quote/HON/financials)/financials)                 |        -2.69558  |         0.0301939  |     -0.0669437   |    -2.76252   |    201 |           0.04 |
+| 201 | [[ADBE](https://finance.yahoo.com/quote/ADBE/financials)](https://finance.yahoo.com/quote/[ADBE](https://finance.yahoo.com/quote/ADBE/financials)/financials)             |        -2.76439  |         0.147716   |     -0.933231    |    -3.69762   |    202 |           0.03 |
+| 202 | [[INTU](https://finance.yahoo.com/quote/INTU/financials)](https://finance.yahoo.com/quote/[INTU](https://finance.yahoo.com/quote/INTU/financials)/financials)             |        -2.92553  |         0.0546143  |      0.0745992   |    -2.85093   |    203 |           0.03 |
+| 203 | [[IBB](https://finance.yahoo.com/quote/IBB/financials)](https://finance.yahoo.com/quote/[IBB](https://finance.yahoo.com/quote/IBB/financials)/financials)                 |        -2.98931  |         0.303274   |     -0.0508384   |    -3.04014   |    204 |           0.02 |
+| 204 | [[UBER](https://finance.yahoo.com/quote/UBER/financials)](https://finance.yahoo.com/quote/[UBER](https://finance.yahoo.com/quote/UBER/financials)/financials)             |        -3.10192  |         0.149363   |      0.0200922   |    -3.08183   |    205 |           0.02 |
+| 205 | [[BA](https://finance.yahoo.com/quote/BA/financials)](https://finance.yahoo.com/quote/[BA](https://finance.yahoo.com/quote/BA/financials)/financials)                     |        -3.20465  |         0.121615   |     -0.585206    |    -3.78986   |    206 |           0.01 |
+| 206 | [[NET](https://finance.yahoo.com/quote/NET/financials)](https://finance.yahoo.com/quote/[NET](https://finance.yahoo.com/quote/NET/financials)/financials)                 |        -3.21484  |         0.342783   |     -0.21676     |    -3.4316    |    207 |           0.01 |
+| 207 | [[LLY](https://finance.yahoo.com/quote/LLY/financials)](https://finance.yahoo.com/quote/[LLY](https://finance.yahoo.com/quote/LLY/financials)/financials)                 |        -3.32956  |         0.00999869 |      0.174904    |    -3.15466   |    208 |           0    |
+| 208 | [[DDOG](https://finance.yahoo.com/quote/DDOG/financials)](https://finance.yahoo.com/quote/[DDOG](https://finance.yahoo.com/quote/DDOG/financials)/financials)             |        -4.03546  |        -0.0338671  |     -0.148492    |    -4.18395   |    209 |           0    |
+ </details>
+
