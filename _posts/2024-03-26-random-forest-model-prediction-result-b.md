@@ -1,11 +1,11 @@
 ---
-title: '2024-03-26 Random Forest Model Prediction Result'
+title: '2024-03-26 Random Forest Model Prediction Result- b'
 date: 2024-03-26
 permalink: /posts/2024/03/random-forest-model-prediction-result-b/
 tags:
   - rf reg result
   - rf clf result
-  - updated on 2024-03-26
+  - updated on 2024-03-26 -b
 ---
 ** This is the rank list for the Tickers from uptrend to downtrend run on 2024-03-26. CLF prediction is the classifier result. REG is the regression result. It is ranked by Total score ** 
 
