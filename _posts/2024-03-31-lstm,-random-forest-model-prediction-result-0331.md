@@ -1,7 +1,7 @@
 ---
 title: '2024-03-31 LSTM, Random Forest Model Prediction Result'
 date: 2024-03-31
-permalink: /posts/2024/03/random-forest-model-prediction-result/
+permalink: /posts/2024/03/random-forest-model-prediction-result-0331/
 tags:
   - rf reg result
   - rf clf result
