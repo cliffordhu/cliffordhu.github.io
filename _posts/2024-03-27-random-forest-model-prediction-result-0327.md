@@ -1,7 +1,7 @@
 ---
 title: '2024-03-27 Random Forest Model Prediction Result'
 date: 2024-03-27
-permalink: /posts/2024/03/random-forest-model-prediction-result/
+permalink: /posts/2024/03/random-forest-model-prediction-result-0327/
 tags:
   - rf reg result
   - rf clf result
