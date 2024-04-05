@@ -14,7 +14,8 @@ tags:
    b. Momentum indicators 
    c. Oscillation indicators 
    d. Macroeconomic indicators 
-* **2- RF Model (39-Day Lookback):** Similar to model 1, but with a 39-day lookback window for its predictions. 
+* **2- RF Model (39-Day Lookback):** Similar to model 1, but with a 39-day lookback window for its predictions.
+
 **Model Training Date:** 2024-04-05 
  **Important Considerations:** 
  
