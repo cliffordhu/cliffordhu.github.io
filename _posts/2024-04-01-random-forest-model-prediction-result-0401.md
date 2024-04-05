@@ -1,7 +1,7 @@
 ---
 title: '2024-04-01 Random Forest Model Prediction Result'
 date: 2024-04-01
-permalink: /posts/2024/04/random-forest-model-prediction-result/
+permalink: /posts/2024/04/random-forest-model-prediction-result-0401/
 tags:
   - rf reg result
   - rf clf result
