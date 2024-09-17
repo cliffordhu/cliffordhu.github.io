@@ -1,0 +1,2 @@
+Symbol,0 LSTM Prediction,0 5-day Trend of LSTM,1 Vote for Positve %,1 5-day Trend of Vote,1 K mean predicted by reggresion,1 5-day Trend of K mean,2 Vote for Positve %,2 5-day Trend of Vote,2 K mean predicted by reggresion,2 5-day Trend of K mean,3 LDA Gain Loss dB,Total,Sector,Rank,Rank Percent
+SPY,0.042249385,0.04089962914586068,58.22690425329913,-0.17348714313968647,-0.09858673649674707,-0.03257498766959586,57.67891134908978,-0.18390063448029104,-0.11105056753141686,-0.03809564191940869,-5.279375712271599,-3.6465447667652118,ETF,1,0.0
